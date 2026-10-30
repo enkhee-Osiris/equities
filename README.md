@@ -64,10 +64,24 @@ These HTML fragments are not a documented API contract. Check MSE's current term
 
 ## GitHub Pages
 
-1. Create a public repository and push this project to `main`.
+The public repository is https://github.com/enkhee-Osiris/equities and the site is https://enkhee-osiris.github.io/equities/.
+
+Daily workflow templates are in `deployment/workflows`. The initial GitHub token could not upload `.github/workflows` because it lacked the `workflow` scope, so the first release uses a built `gh-pages` branch. To activate daily Actions:
+
+1. Authorize the GitHub CLI with `gh auth refresh -h github.com -s workflow`, then copy the YAML files from `deployment/workflows` into `.github/workflows` and push to `main`.
 2. In Settings → Pages, choose **GitHub Actions** as the publishing source.
 3. The **Collect and publish** workflow builds and deploys on pushes. It collects new MSE data daily at **18:17 Asia/Ulaanbaatar (10:17 UTC)**, then explicitly builds/deploys in that same run.
 4. Run it manually with `refresh=true` to collect again, or `false` to redeploy existing data.
+
+For a manual update before Actions is activated, run:
+
+```sh
+npm run collect
+BASE_PATH=/equities/ npm run build
+node scripts/publish-pages.mjs
+```
+
+The manual publisher updates `gh-pages` without changing the source checkout or its staging area. Keep Pages configured to deploy from that branch until activating the Actions source above.
 
 The workflow restores the last `market-data` snapshot before collection. Validated updates are committed to that data branch using a separate Git index, preserving the application checkout. A failed collection leaves the previous deployment in place. PR checks are read-only and cannot publish. No personal access token is needed; Actions uses the scoped repository token.
 

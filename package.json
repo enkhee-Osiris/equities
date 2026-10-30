@@ -10,7 +10,8 @@
     "test": "vitest run && node --test scripts/market-source.test.mjs",
     "collect": "node scripts/collect-market.mjs",
     "test:e2e": "playwright test",
-    "format": "prettier --write src scripts e2e *.ts *.json .github/workflows"
+    "format": "prettier --write src scripts e2e *.ts *.json deployment/workflows",
+    "publish:manual": "npm run build -- --base /equities/ && node scripts/publish-pages.mjs"
   },
   "engines": {
     "node": ">=22.12"

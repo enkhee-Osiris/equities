@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-React, TypeScript, and Vite, implemented from the accepted project plan. GitHub Actions collects and publishes market data; GitHub Pages hosts the static application. Portfolio math uses decimal.js and files use CSV or versioned JSON.
+React, TypeScript, and Vite, implemented from the accepted project plan. GitHub Actions collection/publishing is implemented as workflow templates, pending GitHub authorization for the workflow scope. GitHub Pages hosts the static application from a built gh-pages branch in the meantime. Portfolio math uses decimal.js and files use CSV or versioned JSON.
 
 ## Users
 
