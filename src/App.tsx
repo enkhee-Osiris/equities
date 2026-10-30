@@ -1108,7 +1108,7 @@ export default function App() {
             </p>
             <h3>About closing prices</h3>
             <p>
-              Prices are collected daily from MSE’s public pages. Each stock
+              Prices come from MSE’s public pages. Each stock
               keeps its actual source date. Missing or invalid prices are left
               unpriced, and stale prices remain dated.
             </p>
