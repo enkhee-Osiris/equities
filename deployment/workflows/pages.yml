@@ -1,0 +1,80 @@
+name: Collect and publish
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 10 * * *" # 18:17 Asia/Ulaanbaatar, every calendar day.
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: Collect fresh MSE data before publishing
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Restore the last validated market snapshot
+        shell: bash
+        run: |
+          status=0
+          git ls-remote --exit-code --heads origin market-data > /dev/null || status=$?
+          if [ "$status" -eq 0 ]; then
+            git fetch --depth=1 origin market-data:refs/remotes/origin/market-data
+            rm -rf public/market
+            git archive refs/remotes/origin/market-data public/market | tar -x
+          elif [ "$status" -ne 2 ]; then
+            exit "$status"
+          fi
+      - name: Collect dated MSE prices
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh)
+        run: npm run collect
+      - run: npm test
+      - name: Configure project URL
+        shell: bash
+        run: |
+          repository="${GITHUB_REPOSITORY#*/}"
+          if [[ "${repository,,}" == *.github.io ]]; then
+            echo 'BASE_PATH=/' >> "$GITHUB_ENV"
+          else
+            echo "BASE_PATH=/$repository/" >> "$GITHUB_ENV"
+          fi
+      - run: npm run build
+      - name: Archive validated data
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh)
+        run: bash scripts/commit-market-data.sh
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v5
+        id: deployment

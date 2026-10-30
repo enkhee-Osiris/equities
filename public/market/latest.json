@@ -1,0 +1,4635 @@
+{
+  "schemaVersion": 1,
+  "collectedAt": "2026-10-30T10:11:30.790Z",
+  "source": "Mongolian Stock Exchange",
+  "sourceUrl": "https://open.mse.mn/securities",
+  "instruments": [
+    {
+      "sourceId": "90",
+      "symbol": "APU",
+      "nameMn": "АПУ ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/90"
+    },
+    {
+      "sourceId": "548",
+      "symbol": "AIC",
+      "nameMn": "Ард Даатгал ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/548"
+    },
+    {
+      "sourceId": "550",
+      "symbol": "ADB",
+      "nameMn": "Ард кредит ББСБ ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/550"
+    },
+    {
+      "sourceId": "326",
+      "symbol": "AARD",
+      "nameMn": "Ард санхүүгийн нэгдэл ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/326"
+    },
+    {
+      "sourceId": "522",
+      "symbol": "BDS",
+      "nameMn": "Би ди сек ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/522"
+    },
+    {
+      "sourceId": "354",
+      "symbol": "GOV",
+      "nameMn": "Говь ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/354"
+    },
+    {
+      "sourceId": "562",
+      "symbol": "GLMT",
+      "nameMn": "Голомт Банк ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/562"
+    },
+    {
+      "sourceId": "553",
+      "symbol": "INV",
+      "nameMn": "Инвескор ББСБ ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/553"
+    },
+    {
+      "sourceId": "570",
+      "symbol": "QPAY",
+      "nameMn": "Инновэйшн инвестмент ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/570"
+    },
+    {
+      "sourceId": "545",
+      "symbol": "LEND",
+      "nameMn": "ЛэндМН ББСБ ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/545"
+    },
+    {
+      "sourceId": "547",
+      "symbol": "MNDL",
+      "nameMn": "Мандал Даатгал ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/547"
+    },
+    {
+      "sourceId": "542",
+      "symbol": "MIK",
+      "nameMn": "Мик холдинг ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/542"
+    },
+    {
+      "sourceId": "541",
+      "symbol": "MNP",
+      "nameMn": "Монгол шуудан ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/541"
+    },
+    {
+      "sourceId": "510",
+      "symbol": "MSE",
+      "nameMn": "Монголын хөрөнгийн бирж ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/510"
+    },
+    {
+      "sourceId": "569",
+      "symbol": "MLG",
+      "nameMn": "Монложистикс Холдинг ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/569"
+    },
+    {
+      "sourceId": "551",
+      "symbol": "MFC",
+      "nameMn": "Монос хүнс ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/551"
+    },
+    {
+      "sourceId": "557",
+      "symbol": "CUMN",
+      "nameMn": "Премиум Нэксус ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/557"
+    },
+    {
+      "sourceId": "135",
+      "symbol": "SUU",
+      "nameMn": "Сүү ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/135"
+    },
+    {
+      "sourceId": "561",
+      "symbol": "SEND",
+      "nameMn": "Сэндли ББСБ ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/561"
+    },
+    {
+      "sourceId": "458",
+      "symbol": "TTL",
+      "nameMn": "Таван толгой ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/458"
+    },
+    {
+      "sourceId": "564",
+      "symbol": "SBM",
+      "nameMn": "Төрийн Банк ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/564"
+    },
+    {
+      "sourceId": "549",
+      "symbol": "TUM",
+      "nameMn": "Түмэн шувуут ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/549"
+    },
+    {
+      "sourceId": "573",
+      "symbol": "TGI",
+      "nameMn": "Тэнгэр Даатгал ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/573"
+    },
+    {
+      "sourceId": "563",
+      "symbol": "KHAN",
+      "nameMn": "Хаан банк ХК",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/563"
+    },
+    {
+      "sourceId": "568",
+      "symbol": "XAC",
+      "nameMn": "Хас Банк",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/568"
+    },
+    {
+      "sourceId": "567",
+      "symbol": "TDB",
+      "nameMn": "Худалдаа Хөгжлийн банк",
+      "tier": 1,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/567"
+    },
+    {
+      "sourceId": "543",
+      "symbol": "ITLS",
+      "nameMn": "Айтүүлс ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/543"
+    },
+    {
+      "sourceId": "191",
+      "symbol": "EER",
+      "nameMn": "Ариг гал ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/191"
+    },
+    {
+      "sourceId": "17",
+      "symbol": "ATR",
+      "nameMn": "Атар-Өргөө ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/17"
+    },
+    {
+      "sourceId": "396",
+      "symbol": "BAN",
+      "nameMn": "Багануур ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/396"
+    },
+    {
+      "sourceId": "13",
+      "symbol": "BNG",
+      "nameMn": "Баянгол зочид буудал ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/13"
+    },
+    {
+      "sourceId": "445",
+      "symbol": "BTG",
+      "nameMn": "Баянтээг ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/445"
+    },
+    {
+      "sourceId": "554",
+      "symbol": "BODI",
+      "nameMn": "Богд Даатгал ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/554"
+    },
+    {
+      "sourceId": "38",
+      "symbol": "MBG",
+      "nameMn": "Булигаар ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/38"
+    },
+    {
+      "sourceId": "565",
+      "symbol": "GAZR",
+      "nameMn": "Газар Шим Үйлдвэр ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/565"
+    },
+    {
+      "sourceId": "528",
+      "symbol": "HRM",
+      "nameMn": "Гермес центр ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/528"
+    },
+    {
+      "sourceId": "88",
+      "symbol": "GTL",
+      "nameMn": "Гутал ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/88"
+    },
+    {
+      "sourceId": "366",
+      "symbol": "DZG",
+      "nameMn": "Дархан зочид буудал ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/366"
+    },
+    {
+      "sourceId": "71",
+      "symbol": "NEH",
+      "nameMn": "Дархан нэхий ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/71"
+    },
+    {
+      "sourceId": "521",
+      "symbol": "JTB",
+      "nameMn": "Женко тур бюро ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/521"
+    },
+    {
+      "sourceId": "34",
+      "symbol": "SUL",
+      "nameMn": "Жуулчин дюти фрий ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/34"
+    },
+    {
+      "sourceId": "308",
+      "symbol": "CNF",
+      "nameMn": "Крипто Үндэстэн ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/308"
+    },
+    {
+      "sourceId": "379",
+      "symbol": "MIE",
+      "nameMn": "Материалимпекс ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/379"
+    },
+    {
+      "sourceId": "208",
+      "symbol": "MMX",
+      "nameMn": "Махимпекс ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/208"
+    },
+    {
+      "sourceId": "444",
+      "symbol": "BDL",
+      "nameMn": "Могойн гол ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/444"
+    },
+    {
+      "sourceId": "544",
+      "symbol": "MBW",
+      "nameMn": "Монгол Базальт ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/544"
+    },
+    {
+      "sourceId": "162",
+      "symbol": "MDIC",
+      "nameMn": "Монгол даатгал ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/162"
+    },
+    {
+      "sourceId": "9",
+      "symbol": "MNH",
+      "nameMn": "Монгол нэхмэл ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/9"
+    },
+    {
+      "sourceId": "209",
+      "symbol": "MCH",
+      "nameMn": "Монголын цахилгаан холбоо ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/209"
+    },
+    {
+      "sourceId": "25",
+      "symbol": "MIB",
+      "nameMn": "Монинжбар ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/25"
+    },
+    {
+      "sourceId": "530",
+      "symbol": "RMC",
+      "nameMn": "Ремикон ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/530"
+    },
+    {
+      "sourceId": "22",
+      "symbol": "TCK",
+      "nameMn": "Талх чихэр ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/22"
+    },
+    {
+      "sourceId": "438",
+      "symbol": "TAND",
+      "nameMn": "Тандэм инвэст ББСБ ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/438"
+    },
+    {
+      "sourceId": "441",
+      "symbol": "TEX",
+      "nameMn": "Техник импорт ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/441"
+    },
+    {
+      "sourceId": "195",
+      "symbol": "BUK",
+      "nameMn": "Улаанбаатар БҮК ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/195"
+    },
+    {
+      "sourceId": "7",
+      "symbol": "UBH",
+      "nameMn": "Улаанбаатар хивс ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/7"
+    },
+    {
+      "sourceId": "484",
+      "symbol": "UID",
+      "nameMn": "Улсын их дэлгүүр ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/484"
+    },
+    {
+      "sourceId": "525",
+      "symbol": "HBO",
+      "nameMn": "Хай би ойл ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/525"
+    },
+    {
+      "sourceId": "402",
+      "symbol": "ADU",
+      "nameMn": "Хөвсгөл алтан дуулга ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/402"
+    },
+    {
+      "sourceId": "309",
+      "symbol": "SHG",
+      "nameMn": "Шарын гол ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/309"
+    },
+    {
+      "sourceId": "460",
+      "symbol": "SHV",
+      "nameMn": "Шивээ овоо ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/460"
+    },
+    {
+      "sourceId": "537",
+      "symbol": "ETR",
+      "nameMn": "Э-Транс ложистикс XК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/537"
+    },
+    {
+      "sourceId": "572",
+      "symbol": "MGLA",
+      "nameMn": "Эм Жи Эл Акуа ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/572"
+    },
+    {
+      "sourceId": "546",
+      "symbol": "ERDN",
+      "nameMn": "Эрдэнэ Ресурс Девелопмент Корпорэйшн",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/546"
+    },
+    {
+      "sourceId": "466",
+      "symbol": "BOE",
+      "nameMn": "Эрчим Баян Өлгий ХК",
+      "tier": 2,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/466"
+    },
+    {
+      "sourceId": "369",
+      "symbol": "AAR",
+      "nameMn": "Авто зам ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/369"
+    },
+    {
+      "sourceId": "452",
+      "symbol": "AOI",
+      "nameMn": "Авто импекс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/452"
+    },
+    {
+      "sourceId": "461",
+      "symbol": "ADL",
+      "nameMn": "Адуун чулуун ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/461"
+    },
+    {
+      "sourceId": "187",
+      "symbol": "ALD",
+      "nameMn": "Азык ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/187"
+    },
+    {
+      "sourceId": "119",
+      "symbol": "ALA",
+      "nameMn": "Алтай нэгдэл ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/119"
+    },
+    {
+      "sourceId": "227",
+      "symbol": "AZH",
+      "nameMn": "Алтайн зам ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/227"
+    },
+    {
+      "sourceId": "394",
+      "symbol": "ABH",
+      "nameMn": "Ар баянхангай ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/394"
+    },
+    {
+      "sourceId": "231",
+      "symbol": "ARJ",
+      "nameMn": "Арвижих ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/231"
+    },
+    {
+      "sourceId": "78",
+      "symbol": "AIG",
+      "nameMn": "Ард инвестмент групп ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/78"
+    },
+    {
+      "sourceId": "33",
+      "symbol": "CND",
+      "nameMn": "АСБИ ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/33"
+    },
+    {
+      "sourceId": "200",
+      "symbol": "NOG",
+      "nameMn": "Ачит алкабы ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/200"
+    },
+    {
+      "sourceId": "476",
+      "symbol": "BRC",
+      "nameMn": "Барилга корпораци ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/476"
+    },
+    {
+      "sourceId": "176",
+      "symbol": "BSKY",
+      "nameMn": "Блюскай секьюритиз ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/176"
+    },
+    {
+      "sourceId": "207",
+      "symbol": "BOR",
+      "nameMn": "Борнуур ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/207"
+    },
+    {
+      "sourceId": "435",
+      "symbol": "BHL",
+      "nameMn": "Бөөний худалдаа ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/435"
+    },
+    {
+      "sourceId": "69",
+      "symbol": "BHG",
+      "nameMn": "Бөхөг ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/69"
+    },
+    {
+      "sourceId": "239",
+      "symbol": "BLC",
+      "nameMn": "Бүтээлч үйлс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/239"
+    },
+    {
+      "sourceId": "492",
+      "symbol": "BEU",
+      "nameMn": "Бэрх Уул ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/492"
+    },
+    {
+      "sourceId": "234",
+      "symbol": "GHC",
+      "nameMn": "Ган хийц ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/234"
+    },
+    {
+      "sourceId": "152",
+      "symbol": "BAJ",
+      "nameMn": "Глобал лайф технологи ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/152"
+    },
+    {
+      "sourceId": "125",
+      "symbol": "HML",
+      "nameMn": "Глобал монголиа холдингс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/125"
+    },
+    {
+      "sourceId": "86",
+      "symbol": "JGL",
+      "nameMn": "Говийн өндөр ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/86"
+    },
+    {
+      "sourceId": "571",
+      "symbol": "LOT",
+      "nameMn": "Гранд системс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/571"
+    },
+    {
+      "sourceId": "96",
+      "symbol": "GUR",
+      "nameMn": "Гурил ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/96"
+    },
+    {
+      "sourceId": "252",
+      "symbol": "DAR",
+      "nameMn": "Дархан гурил тэжээл ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/252"
+    },
+    {
+      "sourceId": "508",
+      "symbol": "DSS",
+      "nameMn": "Дархан Сэлэнгийн цахилгаан түгээх сүлжээ ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/508"
+    },
+    {
+      "sourceId": "505",
+      "symbol": "DUS",
+      "nameMn": "Дархан ус суваг ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/505"
+    },
+    {
+      "sourceId": "254",
+      "symbol": "DAH",
+      "nameMn": "Дархан хөвөн ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/254"
+    },
+    {
+      "sourceId": "380",
+      "symbol": "DHU",
+      "nameMn": "Дархан хүнс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/380"
+    },
+    {
+      "sourceId": "311",
+      "symbol": "DES",
+      "nameMn": "Дорнод худалдаа ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/311"
+    },
+    {
+      "sourceId": "246",
+      "symbol": "SUN",
+      "nameMn": "Евроазиа Капитал холдинг ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/246"
+    },
+    {
+      "sourceId": "385",
+      "symbol": "SOH",
+      "nameMn": "Жидакс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/385"
+    },
+    {
+      "sourceId": "61",
+      "symbol": "JGV",
+      "nameMn": "Жуулчин говь ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/61"
+    },
+    {
+      "sourceId": "204",
+      "symbol": "BLG",
+      "nameMn": "Завхан баялаг ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/204"
+    },
+    {
+      "sourceId": "148",
+      "symbol": "GFG",
+      "nameMn": "И Эс Жи Файнанс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/148"
+    },
+    {
+      "sourceId": "459",
+      "symbol": "IBA",
+      "nameMn": "Их барилга ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/459"
+    },
+    {
+      "sourceId": "136",
+      "symbol": "BAZ",
+      "nameMn": "Люкс занаду групп ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/136"
+    },
+    {
+      "sourceId": "80",
+      "symbol": "MNG",
+      "nameMn": "Мандал говь импэкс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/80"
+    },
+    {
+      "sourceId": "540",
+      "symbol": "MRX",
+      "nameMn": "Мерекс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/540"
+    },
+    {
+      "sourceId": "471",
+      "symbol": "MNB",
+      "nameMn": "Мон Наб ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/471"
+    },
+    {
+      "sourceId": "332",
+      "symbol": "MOG",
+      "nameMn": "Монгео ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/332"
+    },
+    {
+      "sourceId": "68",
+      "symbol": "ERS",
+      "nameMn": "Монгол алт ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/68"
+    },
+    {
+      "sourceId": "290",
+      "symbol": "MDZ",
+      "nameMn": "Монгол дизель ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/290"
+    },
+    {
+      "sourceId": "40",
+      "symbol": "KEK",
+      "nameMn": "Монгол керамик ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/40"
+    },
+    {
+      "sourceId": "2",
+      "symbol": "UYN",
+      "nameMn": "Монгол савхи ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/2"
+    },
+    {
+      "sourceId": "503",
+      "symbol": "MSC",
+      "nameMn": "Монгол секюритиес ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/503"
+    },
+    {
+      "sourceId": "236",
+      "symbol": "MVO",
+      "nameMn": "Монгол шевро ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/236"
+    },
+    {
+      "sourceId": "517",
+      "symbol": "MSH",
+      "nameMn": "Монгол шилтгээн ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/517"
+    },
+    {
+      "sourceId": "536",
+      "symbol": "MTZ",
+      "nameMn": "Монголын төмөр зам ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/536"
+    },
+    {
+      "sourceId": "120",
+      "symbol": "HAM",
+      "nameMn": "Монголын хөгжил үндэсний нэгдэл ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/120"
+    },
+    {
+      "sourceId": "23",
+      "symbol": "MNS",
+      "nameMn": "Монноос ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/23"
+    },
+    {
+      "sourceId": "201",
+      "symbol": "JLT",
+      "nameMn": "Ногоон хөгжил үндэсний нэгдэл ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/201"
+    },
+    {
+      "sourceId": "196",
+      "symbol": "TGS",
+      "nameMn": "Номин хишиг ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/196"
+    },
+    {
+      "sourceId": "67",
+      "symbol": "NXE",
+      "nameMn": "Нэхээсгүй эдлэл ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/67"
+    },
+    {
+      "sourceId": "527",
+      "symbol": "OLL",
+      "nameMn": "Оллоо ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/527"
+    },
+    {
+      "sourceId": "409",
+      "symbol": "HJL",
+      "nameMn": "Орхон хөгжил ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/409"
+    },
+    {
+      "sourceId": "331",
+      "symbol": "ORD",
+      "nameMn": "Орхондалай ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/331"
+    },
+    {
+      "sourceId": "98",
+      "symbol": "ULZ",
+      "nameMn": "Өлзий- Дундговь ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/98"
+    },
+    {
+      "sourceId": "389",
+      "symbol": "ONH",
+      "nameMn": "Өндөрхаан ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/389"
+    },
+    {
+      "sourceId": "317",
+      "symbol": "SIL",
+      "nameMn": "Силикат ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/317"
+    },
+    {
+      "sourceId": "54",
+      "symbol": "SSG",
+      "nameMn": "Сонсголон бармат ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/54"
+    },
+    {
+      "sourceId": "97",
+      "symbol": "SOR",
+      "nameMn": "Сор ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/97"
+    },
+    {
+      "sourceId": "420",
+      "symbol": "ALI",
+      "nameMn": "Стандарт ноос ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/420"
+    },
+    {
+      "sourceId": "269",
+      "symbol": "BBD",
+      "nameMn": "Стандарт проперти групп ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/269"
+    },
+    {
+      "sourceId": "41",
+      "symbol": "TVL",
+      "nameMn": "Тавилга ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/41"
+    },
+    {
+      "sourceId": "464",
+      "symbol": "TAL",
+      "nameMn": "Талын гал ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/464"
+    },
+    {
+      "sourceId": "142",
+      "symbol": "TMZ",
+      "nameMn": "Төмрийн завод ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/142"
+    },
+    {
+      "sourceId": "386",
+      "symbol": "TUS",
+      "nameMn": "Түшиг Уул ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/386"
+    },
+    {
+      "sourceId": "408",
+      "symbol": "TNGR",
+      "nameMn": "Тэнгэрлиг медиа групп ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/408"
+    },
+    {
+      "sourceId": "217",
+      "symbol": "TEE",
+      "nameMn": "Тээвэр дархан ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/217"
+    },
+    {
+      "sourceId": "94",
+      "symbol": "HUN",
+      "nameMn": "Увс хүнс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/94"
+    },
+    {
+      "sourceId": "448",
+      "symbol": "CHR",
+      "nameMn": "Увс чацаргана ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/448"
+    },
+    {
+      "sourceId": "325",
+      "symbol": "UNS",
+      "nameMn": "Улаансан ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/325"
+    },
+    {
+      "sourceId": "524",
+      "symbol": "MDR",
+      "nameMn": "Фронтиер Лэнд Групп ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/524"
+    },
+    {
+      "sourceId": "455",
+      "symbol": "TVT",
+      "nameMn": "Хар тарвагатай ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/455"
+    },
+    {
+      "sourceId": "179",
+      "symbol": "HHN",
+      "nameMn": "Хархорин ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/179"
+    },
+    {
+      "sourceId": "378",
+      "symbol": "HSR",
+      "nameMn": "Хасу-Мандал ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/378"
+    },
+    {
+      "sourceId": "376",
+      "symbol": "HSX",
+      "nameMn": "Хишиг уул ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/376"
+    },
+    {
+      "sourceId": "143",
+      "symbol": "AHH",
+      "nameMn": "Хорин хоёрдугаар бааз ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/143"
+    },
+    {
+      "sourceId": "490",
+      "symbol": "SDT",
+      "nameMn": "Хот девелопмент ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/490"
+    },
+    {
+      "sourceId": "108",
+      "symbol": "HUV",
+      "nameMn": "Хөвсгөл геологи ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/108"
+    },
+    {
+      "sourceId": "431",
+      "symbol": "HHS",
+      "nameMn": "Хөвсгөл хүнс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/431"
+    },
+    {
+      "sourceId": "454",
+      "symbol": "HBT",
+      "nameMn": "Хөнгөн бетон ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/454"
+    },
+    {
+      "sourceId": "56",
+      "symbol": "HSG",
+      "nameMn": "Хөсөг трейд ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/56"
+    },
+    {
+      "sourceId": "532",
+      "symbol": "HGN",
+      "nameMn": "Хөх ган ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/532"
+    },
+    {
+      "sourceId": "65",
+      "symbol": "HBZ",
+      "nameMn": "Хүннү менежмент ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/65"
+    },
+    {
+      "sourceId": "8",
+      "symbol": "HRD",
+      "nameMn": "Хүрд XK",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/8"
+    },
+    {
+      "sourceId": "133",
+      "symbol": "HRL",
+      "nameMn": "Хэрлэн Хивс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/133"
+    },
+    {
+      "sourceId": "118",
+      "symbol": "DLH",
+      "nameMn": "Эм Эн Ди ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/118"
+    },
+    {
+      "sourceId": "175",
+      "symbol": "AMT",
+      "nameMn": "Эрдэнэс сольюшинс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/175"
+    },
+    {
+      "sourceId": "469",
+      "symbol": "EAZ",
+      "nameMn": "Эрдэнэт авто зам ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/469"
+    },
+    {
+      "sourceId": "377",
+      "symbol": "SVR",
+      "nameMn": "Эрдэнэт Суврага ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/377"
+    },
+    {
+      "sourceId": "506",
+      "symbol": "EUD",
+      "nameMn": "Эрдэнэт ус, дулаан түгээх сүлжээ ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/506"
+    },
+    {
+      "sourceId": "154",
+      "symbol": "TAS",
+      "nameMn": "Эрдэнэт хүнс ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/154"
+    },
+    {
+      "sourceId": "425",
+      "symbol": "ECV",
+      "nameMn": "Эрээнцав ХК",
+      "tier": 3,
+      "status": "listed",
+      "profileUrl": "https://open.mse.mn/securities/425"
+    },
+    {
+      "sourceId": "487",
+      "symbol": "AZZ",
+      "nameMn": "AЗЗАН ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/487"
+    },
+    {
+      "sourceId": "295",
+      "symbol": "ADC",
+      "nameMn": "Авто даац ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/295"
+    },
+    {
+      "sourceId": "307",
+      "symbol": "ATK",
+      "nameMn": "Авто комбинат ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/307"
+    },
+    {
+      "sourceId": "294",
+      "symbol": "AHD",
+      "nameMn": "Автотээвэр-27 ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/294"
+    },
+    {
+      "sourceId": "12",
+      "symbol": "AGA",
+      "nameMn": "Агро-Амгалан ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/12"
+    },
+    {
+      "sourceId": "423",
+      "symbol": "ATI",
+      "nameMn": "Агротехимпекс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/423"
+    },
+    {
+      "sourceId": "468",
+      "symbol": "ERD",
+      "nameMn": "Ажлын хувцас ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/468"
+    },
+    {
+      "sourceId": "384",
+      "symbol": "APP",
+      "nameMn": "Азиапасифик пропертис ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/384"
+    },
+    {
+      "sourceId": "333",
+      "symbol": "ALM",
+      "nameMn": "Алмаас ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/333"
+    },
+    {
+      "sourceId": "240",
+      "symbol": "AHM",
+      "nameMn": "Алтай ханын материал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/240"
+    },
+    {
+      "sourceId": "228",
+      "symbol": "ATG",
+      "nameMn": "Алтан жолоо говь ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/228"
+    },
+    {
+      "sourceId": "39",
+      "symbol": "ALT",
+      "nameMn": "Алтан тариа ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/39"
+    },
+    {
+      "sourceId": "463",
+      "symbol": "AYG",
+      "nameMn": "Алтан Үсэг ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/463"
+    },
+    {
+      "sourceId": "473",
+      "symbol": "HRA",
+      "nameMn": "Алтандуулга ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/473"
+    },
+    {
+      "sourceId": "529",
+      "symbol": "ANO",
+      "nameMn": "Анод банк ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/529"
+    },
+    {
+      "sourceId": "403",
+      "symbol": "ART",
+      "nameMn": "Ар тархи ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/403"
+    },
+    {
+      "sourceId": "60",
+      "symbol": "ARZ",
+      "nameMn": "Ардын Зориг ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/60"
+    },
+    {
+      "sourceId": "488",
+      "symbol": "ARX",
+      "nameMn": "Ардын эрх",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/488"
+    },
+    {
+      "sourceId": "122",
+      "symbol": "ARI",
+      "nameMn": "Арилжаа ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/122"
+    },
+    {
+      "sourceId": "253",
+      "symbol": "ASG",
+      "nameMn": "Асгат ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/253"
+    },
+    {
+      "sourceId": "258",
+      "symbol": "ASH",
+      "nameMn": "Асралт хайрхан ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/258"
+    },
+    {
+      "sourceId": "350",
+      "symbol": "ATA",
+      "nameMn": "Атар төв ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/350"
+    },
+    {
+      "sourceId": "391",
+      "symbol": "ACH",
+      "nameMn": "Атар Чандган ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/391"
+    },
+    {
+      "sourceId": "280",
+      "symbol": "ATE",
+      "nameMn": "Ачаа тээвэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/280"
+    },
+    {
+      "sourceId": "501",
+      "symbol": "ARG",
+      "nameMn": "Аэрогеодези ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/501"
+    },
+    {
+      "sourceId": "129",
+      "symbol": "AYN",
+      "nameMn": "Аянчин ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/129"
+    },
+    {
+      "sourceId": "507",
+      "symbol": "BZO",
+      "nameMn": "Багануур, Зүүн өмнөд бүсийн цахилгаан түгээх сүлжээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/507"
+    },
+    {
+      "sourceId": "24",
+      "symbol": "BGL",
+      "nameMn": "Байгууламж ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/24"
+    },
+    {
+      "sourceId": "278",
+      "symbol": "BUS",
+      "nameMn": "Баруун-Урт Ус ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/278"
+    },
+    {
+      "sourceId": "76",
+      "symbol": "ZES",
+      "nameMn": "Бат хийц ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/76"
+    },
+    {
+      "sourceId": "218",
+      "symbol": "BST",
+      "nameMn": "Батширээт ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/218"
+    },
+    {
+      "sourceId": "397",
+      "symbol": "BNB",
+      "nameMn": "Баялаг налайх ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/397"
+    },
+    {
+      "sourceId": "256",
+      "symbol": "BLS",
+      "nameMn": "Баялаг шарын гол ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/256"
+    },
+    {
+      "sourceId": "241",
+      "symbol": "ITL",
+      "nameMn": "Баян-Итгэлт ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/241"
+    },
+    {
+      "sourceId": "276",
+      "symbol": "BUL",
+      "nameMn": "Баян-Уул ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/276"
+    },
+    {
+      "sourceId": "169",
+      "symbol": "BBH",
+      "nameMn": "Баянбадрах ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/169"
+    },
+    {
+      "sourceId": "270",
+      "symbol": "BBS",
+      "nameMn": "Баянбулаг-Сэлэнгэ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/270"
+    },
+    {
+      "sourceId": "83",
+      "symbol": "BND",
+      "nameMn": "Баяндөхөм ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/83"
+    },
+    {
+      "sourceId": "62",
+      "symbol": "BNM",
+      "nameMn": "Баянмод Уул ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/62"
+    },
+    {
+      "sourceId": "77",
+      "symbol": "BTL",
+      "nameMn": "Баянталбай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/77"
+    },
+    {
+      "sourceId": "225",
+      "symbol": "BAL",
+      "nameMn": "Баянтолгой ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/225"
+    },
+    {
+      "sourceId": "296",
+      "symbol": "BTR",
+      "nameMn": "Баянтоорой ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/296"
+    },
+    {
+      "sourceId": "427",
+      "symbol": "BNH",
+      "nameMn": "Баянхан ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/427"
+    },
+    {
+      "sourceId": "222",
+      "symbol": "BNR",
+      "nameMn": "Баянхонгор ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/222"
+    },
+    {
+      "sourceId": "429",
+      "symbol": "SBU",
+      "nameMn": "Билгэх баянбүрд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/429"
+    },
+    {
+      "sourceId": "315",
+      "symbol": "BHR",
+      "nameMn": "Бинсэ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/315"
+    },
+    {
+      "sourceId": "264",
+      "symbol": "HHC",
+      "nameMn": "Бишрэлт индастриал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/264"
+    },
+    {
+      "sourceId": "558",
+      "symbol": "BOGD",
+      "nameMn": "Богд Банк ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/558"
+    },
+    {
+      "sourceId": "480",
+      "symbol": "BRO",
+      "nameMn": "Бороогийн үйлдвэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/480"
+    },
+    {
+      "sourceId": "146",
+      "symbol": "CCA",
+      "nameMn": "Буудайн цацал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/146"
+    },
+    {
+      "sourceId": "121",
+      "symbol": "BYN",
+      "nameMn": "Буян ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/121"
+    },
+    {
+      "sourceId": "126",
+      "symbol": "BJT",
+      "nameMn": "Буянт ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/126"
+    },
+    {
+      "sourceId": "277",
+      "symbol": "HBB",
+      "nameMn": "Буянтбулаг ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/277"
+    },
+    {
+      "sourceId": "395",
+      "symbol": "BUT",
+      "nameMn": "Бүтээл ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/395"
+    },
+    {
+      "sourceId": "539",
+      "symbol": "BRM",
+      "nameMn": "Бэрэн майнинг",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/539"
+    },
+    {
+      "sourceId": "351",
+      "symbol": "GNL",
+      "nameMn": "Ган нэгдэл ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/351"
+    },
+    {
+      "sourceId": "382",
+      "symbol": "GTR",
+      "nameMn": "Ган тээрэм ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/382"
+    },
+    {
+      "sourceId": "353",
+      "symbol": "HZB",
+      "nameMn": "Ган хэрлэн ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/353"
+    },
+    {
+      "sourceId": "216",
+      "symbol": "DLA",
+      "nameMn": "Гантөмөрт ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/216"
+    },
+    {
+      "sourceId": "344",
+      "symbol": "GOS",
+      "nameMn": "Говь сүмбэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/344"
+    },
+    {
+      "sourceId": "443",
+      "symbol": "BRD",
+      "nameMn": "Говь Шанд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/443"
+    },
+    {
+      "sourceId": "159",
+      "symbol": "GNR",
+      "nameMn": "Гонир ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/159"
+    },
+    {
+      "sourceId": "263",
+      "symbol": "GTJ",
+      "nameMn": "Гурил тэжээл Булган ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/263"
+    },
+    {
+      "sourceId": "363",
+      "symbol": "GGL",
+      "nameMn": "Гүн Галуут ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/363"
+    },
+    {
+      "sourceId": "150",
+      "symbol": "DBL",
+      "nameMn": "Даваанбулаг ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/150"
+    },
+    {
+      "sourceId": "513",
+      "symbol": "DZS",
+      "nameMn": "Даланзадгадын дулааны цахилгаан станц ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/513"
+    },
+    {
+      "sourceId": "287",
+      "symbol": "DBZ",
+      "nameMn": "Дамжлага бааз ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/287"
+    },
+    {
+      "sourceId": "470",
+      "symbol": "DRZ",
+      "nameMn": "Дар зам ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/470"
+    },
+    {
+      "sourceId": "367",
+      "symbol": "DRI",
+      "nameMn": "Дархан импекс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/367"
+    },
+    {
+      "sourceId": "63",
+      "symbol": "HSH",
+      "nameMn": "Дархан мах экспо ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/63"
+    },
+    {
+      "sourceId": "399",
+      "symbol": "DER",
+      "nameMn": "Дархан Өргөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/399"
+    },
+    {
+      "sourceId": "526",
+      "symbol": "DTU",
+      "nameMn": "Дархан төмөрлөгийн үйлдвэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/526"
+    },
+    {
+      "sourceId": "199",
+      "symbol": "ARL",
+      "nameMn": "Дархан худалдаа ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/199"
+    },
+    {
+      "sourceId": "498",
+      "symbol": "DDS",
+      "nameMn": "Дарханы дулааны сүлжээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/498"
+    },
+    {
+      "sourceId": "496",
+      "symbol": "DAS",
+      "nameMn": "Дарханы дулааны цахилгаан станц ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/496"
+    },
+    {
+      "sourceId": "481",
+      "symbol": "DZU",
+      "nameMn": "ДЗУЗГ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/481"
+    },
+    {
+      "sourceId": "523",
+      "symbol": "DAZ",
+      "nameMn": "Дорнод авто зам ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/523"
+    },
+    {
+      "sourceId": "320",
+      "symbol": "DIM",
+      "nameMn": "Дорнод импекс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/320"
+    },
+    {
+      "sourceId": "381",
+      "symbol": "DNU",
+      "nameMn": "Дорнод Ноос ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/381"
+    },
+    {
+      "sourceId": "312",
+      "symbol": "SIT",
+      "nameMn": "Дорнод сито ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/312"
+    },
+    {
+      "sourceId": "358",
+      "symbol": "DOT",
+      "nameMn": "Дорнод тээвэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/358"
+    },
+    {
+      "sourceId": "132",
+      "symbol": "DRN",
+      "nameMn": "Дорнод ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/132"
+    },
+    {
+      "sourceId": "343",
+      "symbol": "DHS",
+      "nameMn": "Дорнод Хүнс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/343"
+    },
+    {
+      "sourceId": "267",
+      "symbol": "HHB",
+      "nameMn": "Дорнын бэрс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/267"
+    },
+    {
+      "sourceId": "21",
+      "symbol": "DRU",
+      "nameMn": "Дөрвөн-Уул ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/21"
+    },
+    {
+      "sourceId": "519",
+      "symbol": "DSH",
+      "nameMn": "Дулаан шарын гол ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/519"
+    },
+    {
+      "sourceId": "502",
+      "symbol": "DKS",
+      "nameMn": "Дулааны II цахилгаан станц ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/502"
+    },
+    {
+      "sourceId": "504",
+      "symbol": "DGS",
+      "nameMn": "Дулааны III цахилгаан станц ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/504"
+    },
+    {
+      "sourceId": "514",
+      "symbol": "DSD",
+      "nameMn": "Дулааны цахилгаан станц-4 ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/514"
+    },
+    {
+      "sourceId": "300",
+      "symbol": "DMA",
+      "nameMn": "Дэвшил мандал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/300"
+    },
+    {
+      "sourceId": "93",
+      "symbol": "BBG",
+      "nameMn": "Дэл Баянбулаг ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/93"
+    },
+    {
+      "sourceId": "242",
+      "symbol": "DLB",
+      "nameMn": "Дэлгэр трейд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/242"
+    },
+    {
+      "sourceId": "257",
+      "symbol": "DHO",
+      "nameMn": "Дэлгэрэх хүнс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/257"
+    },
+    {
+      "sourceId": "211",
+      "symbol": "DHM",
+      "nameMn": "Дээд буян ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/211"
+    },
+    {
+      "sourceId": "173",
+      "symbol": "DEE",
+      "nameMn": "Дээж ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/173"
+    },
+    {
+      "sourceId": "37",
+      "symbol": "SOI",
+      "nameMn": "Еврофё Азиа ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/37"
+    },
+    {
+      "sourceId": "84",
+      "symbol": "LZB",
+      "nameMn": "Жанна Д Арк ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/84"
+    },
+    {
+      "sourceId": "268",
+      "symbol": "JRT",
+      "nameMn": "Жаргалант-Төв ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/268"
+    },
+    {
+      "sourceId": "442",
+      "symbol": "JMT",
+      "nameMn": "Жимст ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/442"
+    },
+    {
+      "sourceId": "230",
+      "symbol": "JST",
+      "nameMn": "Жинст ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/230"
+    },
+    {
+      "sourceId": "155",
+      "symbol": "JNN",
+      "nameMn": "Жинчин ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/155"
+    },
+    {
+      "sourceId": "285",
+      "symbol": "UUG",
+      "nameMn": "Жирмэн сүлжээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/285"
+    },
+    {
+      "sourceId": "244",
+      "symbol": "JOL",
+      "nameMn": "Жол ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/244"
+    },
+    {
+      "sourceId": "305",
+      "symbol": "TBE",
+      "nameMn": "Жоншит тээвэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/305"
+    },
+    {
+      "sourceId": "375",
+      "symbol": "ZVH",
+      "nameMn": "Завхан тээвэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/375"
+    },
+    {
+      "sourceId": "286",
+      "symbol": "ORG",
+      "nameMn": "Завхан тээх ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/286"
+    },
+    {
+      "sourceId": "172",
+      "symbol": "ZAL",
+      "nameMn": "Залуучууд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/172"
+    },
+    {
+      "sourceId": "489",
+      "symbol": "ZMS",
+      "nameMn": "ЗГМС ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/489"
+    },
+    {
+      "sourceId": "520",
+      "symbol": "ZSB",
+      "nameMn": "Зоос банк ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/520"
+    },
+    {
+      "sourceId": "450",
+      "symbol": "ZOO",
+      "nameMn": "Зоос гоёл ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/450"
+    },
+    {
+      "sourceId": "197",
+      "symbol": "ZOS",
+      "nameMn": "Зоос трейд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/197"
+    },
+    {
+      "sourceId": "282",
+      "symbol": "TGD",
+      "nameMn": "Зүрх уул ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/282"
+    },
+    {
+      "sourceId": "475",
+      "symbol": "ZNR",
+      "nameMn": "Зүүн хараа өргөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/475"
+    },
+    {
+      "sourceId": "283",
+      "symbol": "BUR",
+      "nameMn": "Иж бүрэн ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/283"
+    },
+    {
+      "sourceId": "465",
+      "symbol": "IAR",
+      "nameMn": "Илч Архангай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/465"
+    },
+    {
+      "sourceId": "329",
+      "symbol": "INT",
+      "nameMn": "Ингэттолгой ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/329"
+    },
+    {
+      "sourceId": "292",
+      "symbol": "OBL",
+      "nameMn": "Их даац ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/292"
+    },
+    {
+      "sourceId": "157",
+      "symbol": "IHN",
+      "nameMn": "Их нуур ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/157"
+    },
+    {
+      "sourceId": "104",
+      "symbol": "URT",
+      "nameMn": "Их Өртөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/104"
+    },
+    {
+      "sourceId": "185",
+      "symbol": "IHU",
+      "nameMn": "Их үүсгэл ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/185"
+    },
+    {
+      "sourceId": "259",
+      "symbol": "KER",
+      "nameMn": "Керамзит ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/259"
+    },
+    {
+      "sourceId": "356",
+      "symbol": "MGG",
+      "nameMn": "Магсаржав ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/356"
+    },
+    {
+      "sourceId": "261",
+      "symbol": "OZH",
+      "nameMn": "Мандал Оргил ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/261"
+    },
+    {
+      "sourceId": "194",
+      "symbol": "MAN",
+      "nameMn": "Мандал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/194"
+    },
+    {
+      "sourceId": "486",
+      "symbol": "MZR",
+      "nameMn": "Манзушир ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/486"
+    },
+    {
+      "sourceId": "26",
+      "symbol": "MMH",
+      "nameMn": "Машин механизм ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/26"
+    },
+    {
+      "sourceId": "272",
+      "symbol": "MER",
+      "nameMn": "Мерей ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/272"
+    },
+    {
+      "sourceId": "238",
+      "symbol": "DLM",
+      "nameMn": "Модлог ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/238"
+    },
+    {
+      "sourceId": "559",
+      "symbol": "MBF",
+      "nameMn": "Мон Бийф ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/559"
+    },
+    {
+      "sourceId": "50",
+      "symbol": "ASA",
+      "nameMn": "Мон-асар ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/50"
+    },
+    {
+      "sourceId": "336",
+      "symbol": "URC",
+      "nameMn": "Мон-Ургац ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/336"
+    },
+    {
+      "sourceId": "10",
+      "symbol": "CHE",
+      "nameMn": "Монгол даатгал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/10"
+    },
+    {
+      "sourceId": "226",
+      "symbol": "DLG",
+      "nameMn": "Монгол мах экспо ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/226"
+    },
+    {
+      "sourceId": "123",
+      "symbol": "MNM",
+      "nameMn": "Монгол ном ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/123"
+    },
+    {
+      "sourceId": "316",
+      "symbol": "MSR",
+      "nameMn": "Монгол шир ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/316"
+    },
+    {
+      "sourceId": "47",
+      "symbol": "MSD",
+      "nameMn": "Монгол шүдэнз ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/47"
+    },
+    {
+      "sourceId": "342",
+      "symbol": "MED",
+      "nameMn": "Монгол эд импекс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/342"
+    },
+    {
+      "sourceId": "509",
+      "symbol": "MEI",
+      "nameMn": "Монгол эм импекс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/509"
+    },
+    {
+      "sourceId": "318",
+      "symbol": "MEG",
+      "nameMn": "Монгол ЭЭГ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/318"
+    },
+    {
+      "sourceId": "362",
+      "symbol": "GGE",
+      "nameMn": "Монголын гэгээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/362"
+    },
+    {
+      "sourceId": "430",
+      "symbol": "MEL",
+      "nameMn": "Монел ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/430"
+    },
+    {
+      "sourceId": "149",
+      "symbol": "BLA",
+      "nameMn": "Монмойд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/149"
+    },
+    {
+      "sourceId": "11",
+      "symbol": "MSV",
+      "nameMn": "Монсав ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/11"
+    },
+    {
+      "sourceId": "533",
+      "symbol": "MNF",
+      "nameMn": "Монфрэш шүүс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/533"
+    },
+    {
+      "sourceId": "205",
+      "symbol": "DTT",
+      "nameMn": "Монхөлөг",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/205"
+    },
+    {
+      "sourceId": "493",
+      "symbol": "MEZ",
+      "nameMn": "Монэнзим ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/493"
+    },
+    {
+      "sourceId": "130",
+      "symbol": "AZA",
+      "nameMn": "Мөнх жим ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/130"
+    },
+    {
+      "sourceId": "334",
+      "symbol": "SSR",
+      "nameMn": "Мөнхсансар ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/334"
+    },
+    {
+      "sourceId": "51",
+      "symbol": "MUDX",
+      "nameMn": "МҮДИКС ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/51"
+    },
+    {
+      "sourceId": "171",
+      "symbol": "NDR",
+      "nameMn": "Найд",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/171"
+    },
+    {
+      "sourceId": "531",
+      "symbol": "NKT",
+      "nameMn": "Нако түлш ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/531"
+    },
+    {
+      "sourceId": "419",
+      "symbol": "NLO",
+      "nameMn": "Налайх өргөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/419"
+    },
+    {
+      "sourceId": "500",
+      "symbol": "NDS",
+      "nameMn": "Налайхын дулааны станц ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/500"
+    },
+    {
+      "sourceId": "55",
+      "symbol": "NUR",
+      "nameMn": "Нийслэл өргөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/55"
+    },
+    {
+      "sourceId": "428",
+      "symbol": "NIC",
+      "nameMn": "НИК ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/428"
+    },
+    {
+      "sourceId": "163",
+      "symbol": "NSD",
+      "nameMn": "Ноён шанд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/163"
+    },
+    {
+      "sourceId": "289",
+      "symbol": "NIE",
+      "nameMn": "Ноёт хайрхан ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/289"
+    },
+    {
+      "sourceId": "235",
+      "symbol": "ORI",
+      "nameMn": "Оргил Говь-алтай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/235"
+    },
+    {
+      "sourceId": "383",
+      "symbol": "OHR",
+      "nameMn": "Орд харш ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/383"
+    },
+    {
+      "sourceId": "412",
+      "symbol": "OTL",
+      "nameMn": "Орхон булаг ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/412"
+    },
+    {
+      "sourceId": "426",
+      "symbol": "OJN",
+      "nameMn": "Орхон жимс ногоо ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/426"
+    },
+    {
+      "sourceId": "170",
+      "symbol": "ORH",
+      "nameMn": "Орхон ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/170"
+    },
+    {
+      "sourceId": "212",
+      "symbol": "UAA",
+      "nameMn": "Өв-Усжуулагч ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/212"
+    },
+    {
+      "sourceId": "255",
+      "symbol": "OGU",
+      "nameMn": "Өгөөж-Сүмбэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/255"
+    },
+    {
+      "sourceId": "288",
+      "symbol": "OZM",
+      "nameMn": "Өгөөмөр Уул ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/288"
+    },
+    {
+      "sourceId": "18",
+      "symbol": "UDV",
+      "nameMn": "Өндөр дов ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/18"
+    },
+    {
+      "sourceId": "189",
+      "symbol": "JIM",
+      "nameMn": "Өргөн жим ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/189"
+    },
+    {
+      "sourceId": "248",
+      "symbol": "OEE",
+      "nameMn": "Өргөн хэрэглээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/248"
+    },
+    {
+      "sourceId": "436",
+      "symbol": "RIN",
+      "nameMn": "Разноимпекс нэгдэл ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/436"
+    },
+    {
+      "sourceId": "424",
+      "symbol": "GTU",
+      "nameMn": "Сав шим ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/424"
+    },
+    {
+      "sourceId": "111",
+      "symbol": "SVN",
+      "nameMn": "Саван трейд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/111"
+    },
+    {
+      "sourceId": "250",
+      "symbol": "SAI",
+      "nameMn": "Сайншанд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/250"
+    },
+    {
+      "sourceId": "46",
+      "symbol": "SBB",
+      "nameMn": "Спирт бал бурам ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/46"
+    },
+    {
+      "sourceId": "89",
+      "symbol": "MSL",
+      "nameMn": "Сүлжээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/89"
+    },
+    {
+      "sourceId": "266",
+      "symbol": "SUO",
+      "nameMn": "Сүмбэр-Өлзий ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/266"
+    },
+    {
+      "sourceId": "110",
+      "symbol": "ARH",
+      "nameMn": "Сэлэнгэ Ар хөвч ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/110"
+    },
+    {
+      "sourceId": "134",
+      "symbol": "SGT",
+      "nameMn": "Сэлэнгэ гурил тэжээл ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/134"
+    },
+    {
+      "sourceId": "449",
+      "symbol": "SEM",
+      "nameMn": "Сэлэнгэ импекс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/449"
+    },
+    {
+      "sourceId": "414",
+      "symbol": "SES",
+      "nameMn": "Сэлэнгэ сүрэг ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/414"
+    },
+    {
+      "sourceId": "281",
+      "symbol": "HDS",
+      "nameMn": "Сэлэнгэ Хүрд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/281"
+    },
+    {
+      "sourceId": "214",
+      "symbol": "TAV",
+      "nameMn": "Тав ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/214"
+    },
+    {
+      "sourceId": "400",
+      "symbol": "THA",
+      "nameMn": "Тахилгат ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/400"
+    },
+    {
+      "sourceId": "44",
+      "symbol": "TAH",
+      "nameMn": "Тахь-ко ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/44"
+    },
+    {
+      "sourceId": "415",
+      "symbol": "IBU",
+      "nameMn": "Торгон үр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/415"
+    },
+    {
+      "sourceId": "421",
+      "symbol": "UST",
+      "nameMn": "Төв Ус ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/421"
+    },
+    {
+      "sourceId": "116",
+      "symbol": "ORL",
+      "nameMn": "Төв-Оргил ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/116"
+    },
+    {
+      "sourceId": "5",
+      "symbol": "TLG",
+      "nameMn": "Тулга ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/5"
+    },
+    {
+      "sourceId": "322",
+      "symbol": "TLP",
+      "nameMn": "Тулпар ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/322"
+    },
+    {
+      "sourceId": "324",
+      "symbol": "TRN",
+      "nameMn": "Туруун ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/324"
+    },
+    {
+      "sourceId": "219",
+      "symbol": "BNT",
+      "nameMn": "Туул баян ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/219"
+    },
+    {
+      "sourceId": "147",
+      "symbol": "HAL",
+      "nameMn": "Тэгш ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/147"
+    },
+    {
+      "sourceId": "229",
+      "symbol": "TNV",
+      "nameMn": "Тэнхлэг Ус ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/229"
+    },
+    {
+      "sourceId": "439",
+      "symbol": "TEV",
+      "nameMn": "Тээвэр төв ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/439"
+    },
+    {
+      "sourceId": "293",
+      "symbol": "CNR",
+      "nameMn": "Тээвэр цагааннуур ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/293"
+    },
+    {
+      "sourceId": "188",
+      "symbol": "ACL",
+      "nameMn": "Тээвэр-Ачлал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/188"
+    },
+    {
+      "sourceId": "251",
+      "symbol": "UVN",
+      "nameMn": "Увс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/251"
+    },
+    {
+      "sourceId": "371",
+      "symbol": "UGT",
+      "nameMn": "Угтаал Төв ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/371"
+    },
+    {
+      "sourceId": "422",
+      "symbol": "ULH",
+      "nameMn": "Улаан Хотгор ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/422"
+    },
+    {
+      "sourceId": "497",
+      "symbol": "UDS",
+      "nameMn": "Улаанбаатар дулааны сүлжээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/497"
+    },
+    {
+      "sourceId": "3",
+      "symbol": "ULN",
+      "nameMn": "Улаанбаатар зочид буудал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/3"
+    },
+    {
+      "sourceId": "515",
+      "symbol": "UTS",
+      "nameMn": "Улаанбаатар цахилгаан түгээх сүлжээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/515"
+    },
+    {
+      "sourceId": "210",
+      "symbol": "ULB",
+      "nameMn": "Улбаа ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/210"
+    },
+    {
+      "sourceId": "437",
+      "symbol": "LJA",
+      "nameMn": "Улиастай тэгш ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/437"
+    },
+    {
+      "sourceId": "314",
+      "symbol": "UND",
+      "nameMn": "Ундрага-Өмнөговь ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/314"
+    },
+    {
+      "sourceId": "474",
+      "symbol": "UDR",
+      "nameMn": "Ундрам ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/474"
+    },
+    {
+      "sourceId": "447",
+      "symbol": "UBA",
+      "nameMn": "Уран барилга ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/447"
+    },
+    {
+      "sourceId": "202",
+      "symbol": "BNZ",
+      "nameMn": "Ургац өгөөж ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/202"
+    },
+    {
+      "sourceId": "368",
+      "symbol": "UAR",
+      "nameMn": "Ус-Архангай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/368"
+    },
+    {
+      "sourceId": "323",
+      "symbol": "CMD",
+      "nameMn": "Усжуулах ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/323"
+    },
+    {
+      "sourceId": "360",
+      "symbol": "HZH",
+      "nameMn": "Хазна ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/360"
+    },
+    {
+      "sourceId": "398",
+      "symbol": "HST",
+      "nameMn": "Хайлааст ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/398"
+    },
+    {
+      "sourceId": "348",
+      "symbol": "DDL",
+      "nameMn": "Халх буудай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/348"
+    },
+    {
+      "sourceId": "174",
+      "symbol": "HNG",
+      "nameMn": "Хангай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/174"
+    },
+    {
+      "sourceId": "357",
+      "symbol": "NUL",
+      "nameMn": "Хангайн царам ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/357"
+    },
+    {
+      "sourceId": "372",
+      "symbol": "HGL",
+      "nameMn": "Хангал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/372"
+    },
+    {
+      "sourceId": "32",
+      "symbol": "HMK",
+      "nameMn": "Ханын материал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/32"
+    },
+    {
+      "sourceId": "365",
+      "symbol": "HAG",
+      "nameMn": "Харгиа ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/365"
+    },
+    {
+      "sourceId": "161",
+      "symbol": "AVH",
+      "nameMn": "Харшийн гэгээ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/161"
+    },
+    {
+      "sourceId": "52",
+      "symbol": "HOR",
+      "nameMn": "Хаш орд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/52"
+    },
+    {
+      "sourceId": "339",
+      "symbol": "BRL",
+      "nameMn": "Хаш өргөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/339"
+    },
+    {
+      "sourceId": "304",
+      "symbol": "HII",
+      "nameMn": "Хийц Увс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/304"
+    },
+    {
+      "sourceId": "102",
+      "symbol": "AVT",
+      "nameMn": "Хориннаймдугаар бааз ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/102"
+    },
+    {
+      "sourceId": "198",
+      "symbol": "MTS",
+      "nameMn": "Хорол-Эрдэнэ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/198"
+    },
+    {
+      "sourceId": "451",
+      "symbol": "NHT",
+      "nameMn": "Хотгор ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/451"
+    },
+    {
+      "sourceId": "373",
+      "symbol": "HUZ",
+      "nameMn": "Хөвсгөл усан зам ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/373"
+    },
+    {
+      "sourceId": "341",
+      "symbol": "HUT",
+      "nameMn": "Хөдөөгийн тээвэр ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/341"
+    },
+    {
+      "sourceId": "180",
+      "symbol": "HUJ",
+      "nameMn": "Хужирт өргөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/180"
+    },
+    {
+      "sourceId": "330",
+      "symbol": "DAO",
+      "nameMn": "Хуртай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/330"
+    },
+    {
+      "sourceId": "364",
+      "symbol": "HRH",
+      "nameMn": "Хурх гол ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/364"
+    },
+    {
+      "sourceId": "472",
+      "symbol": "HTO",
+      "nameMn": "Хүнс Төв ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/472"
+    },
+    {
+      "sourceId": "393",
+      "symbol": "HAH",
+      "nameMn": "Хүнс-Архангай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/393"
+    },
+    {
+      "sourceId": "19",
+      "symbol": "HIE",
+      "nameMn": "Хэрэглээ импекс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/19"
+    },
+    {
+      "sourceId": "114",
+      "symbol": "HLG",
+      "nameMn": "Хялганат ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/114"
+    },
+    {
+      "sourceId": "446",
+      "symbol": "TSN",
+      "nameMn": "Цагааннуур ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/446"
+    },
+    {
+      "sourceId": "407",
+      "symbol": "TSA",
+      "nameMn": "Цагаантолгой ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/407"
+    },
+    {
+      "sourceId": "91",
+      "symbol": "CGC",
+      "nameMn": "Цагаанчулуут ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/91"
+    },
+    {
+      "sourceId": "4",
+      "symbol": "CSU",
+      "nameMn": "ЦаСТУ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/4"
+    },
+    {
+      "sourceId": "53",
+      "symbol": "CCL",
+      "nameMn": "Цацрал мон ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/53"
+    },
+    {
+      "sourceId": "518",
+      "symbol": "HTS",
+      "nameMn": "Цемент шохой ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/518"
+    },
+    {
+      "sourceId": "390",
+      "symbol": "CHA",
+      "nameMn": "Чандган ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/390"
+    },
+    {
+      "sourceId": "352",
+      "symbol": "CDU",
+      "nameMn": "Чандмань Дундговь ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/352"
+    },
+    {
+      "sourceId": "279",
+      "symbol": "CNT",
+      "nameMn": "Чандмань тал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/279"
+    },
+    {
+      "sourceId": "181",
+      "symbol": "CAD",
+      "nameMn": "Чандмань уул ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/181"
+    },
+    {
+      "sourceId": "306",
+      "symbol": "CHI",
+      "nameMn": "Чимбай ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/306"
+    },
+    {
+      "sourceId": "164",
+      "symbol": "SNH",
+      "nameMn": "Шанх ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/164"
+    },
+    {
+      "sourceId": "183",
+      "symbol": "SHR",
+      "nameMn": "Шар хоолой ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/183"
+    },
+    {
+      "sourceId": "215",
+      "symbol": "OZT",
+      "nameMn": "Шахайт Хайрхан ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/215"
+    },
+    {
+      "sourceId": "158",
+      "symbol": "SIM",
+      "nameMn": "Шим ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/158"
+    },
+    {
+      "sourceId": "416",
+      "symbol": "SNO",
+      "nameMn": "Шинэ Өргөө ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/416"
+    },
+    {
+      "sourceId": "260",
+      "symbol": "SHS",
+      "nameMn": "Шинэс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/260"
+    },
+    {
+      "sourceId": "359",
+      "symbol": "NRS",
+      "nameMn": "Шинэст ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/359"
+    },
+    {
+      "sourceId": "249",
+      "symbol": "SCL",
+      "nameMn": "Шинэчлэл инвест ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/249"
+    },
+    {
+      "sourceId": "485",
+      "symbol": "SHO",
+      "nameMn": "Шороон орд ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/485"
+    },
+    {
+      "sourceId": "178",
+      "symbol": "JRG",
+      "nameMn": "Эвлэл ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/178"
+    },
+    {
+      "sourceId": "245",
+      "symbol": "EHT",
+      "nameMn": "Эд хэрэглэгчдийн төв ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/245"
+    },
+    {
+      "sourceId": "467",
+      "symbol": "ENT",
+      "nameMn": "Эмнэлэгийн техник ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/467"
+    },
+    {
+      "sourceId": "491",
+      "symbol": "ERZ",
+      "nameMn": "Эрдэнэ зам ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/491"
+    },
+    {
+      "sourceId": "113",
+      "symbol": "IND",
+      "nameMn": "Эрдэнэт зандан ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/113"
+    },
+    {
+      "sourceId": "109",
+      "symbol": "ERH",
+      "nameMn": "Эрдэнэт хивс ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/109"
+    },
+    {
+      "sourceId": "499",
+      "symbol": "EDS",
+      "nameMn": "Эрдэнэтийн дулааны цахилгаан станц ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/499"
+    },
+    {
+      "sourceId": "184",
+      "symbol": "ETL",
+      "nameMn": "Эрдэнэтолгой Төв ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/184"
+    },
+    {
+      "sourceId": "440",
+      "symbol": "ESG",
+      "nameMn": "Эсгий гутал ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/440"
+    },
+    {
+      "sourceId": "479",
+      "symbol": "EHB",
+      "nameMn": "ЭХБУТ ХК",
+      "tier": null,
+      "status": "delisted",
+      "profileUrl": "https://open.mse.mn/securities/479"
+    }
+  ],
+  "quotes": [
+    {
+      "sourceId": "369",
+      "symbol": "AAR",
+      "date": "2026-10-14",
+      "close": "4545",
+      "previousClose": "3953",
+      "volume": 129
+    },
+    {
+      "sourceId": "326",
+      "symbol": "AARD",
+      "date": "2026-10-29",
+      "close": "5405",
+      "previousClose": "5225",
+      "volume": 26713
+    },
+    {
+      "sourceId": "394",
+      "symbol": "ABH",
+      "date": "2026-10-15",
+      "close": "787",
+      "previousClose": "787",
+      "volume": 6
+    },
+    {
+      "sourceId": "550",
+      "symbol": "ADB",
+      "date": "2026-10-29",
+      "close": "113.45",
+      "previousClose": "114.05",
+      "volume": 196654
+    },
+    {
+      "sourceId": "461",
+      "symbol": "ADL",
+      "date": "2026-10-27",
+      "close": "328",
+      "previousClose": "380",
+      "volume": 302
+    },
+    {
+      "sourceId": "402",
+      "symbol": "ADU",
+      "date": "2026-10-27",
+      "close": "292",
+      "previousClose": "300",
+      "volume": 207
+    },
+    {
+      "sourceId": "143",
+      "symbol": "AHH",
+      "date": "2026-10-28",
+      "close": "4050",
+      "previousClose": "4029",
+      "volume": 808
+    },
+    {
+      "sourceId": "548",
+      "symbol": "AIC",
+      "date": "2026-10-29",
+      "close": "613.47",
+      "previousClose": "615.03",
+      "volume": 4812
+    },
+    {
+      "sourceId": "78",
+      "symbol": "AIG",
+      "date": "2026-10-22",
+      "close": "165",
+      "previousClose": "165",
+      "volume": 2440
+    },
+    {
+      "sourceId": "119",
+      "symbol": "ALA",
+      "date": "2008-07-08",
+      "close": "275",
+      "previousClose": null,
+      "volume": 140
+    },
+    {
+      "sourceId": "187",
+      "symbol": "ALD",
+      "date": "2025-10-15",
+      "close": "2479",
+      "previousClose": "2477",
+      "volume": 6196
+    },
+    {
+      "sourceId": "420",
+      "symbol": "ALI",
+      "date": "2026-10-27",
+      "close": "490",
+      "previousClose": "490",
+      "volume": 10
+    },
+    {
+      "sourceId": "175",
+      "symbol": "AMT",
+      "date": "2026-10-29",
+      "close": "5.24",
+      "previousClose": "5.69",
+      "volume": 18131
+    },
+    {
+      "sourceId": "452",
+      "symbol": "AOI",
+      "date": "2026-10-12",
+      "close": "1820",
+      "previousClose": "1830",
+      "volume": 83
+    },
+    {
+      "sourceId": "90",
+      "symbol": "APU",
+      "date": "2026-10-29",
+      "close": "1056",
+      "previousClose": "1086",
+      "volume": 92277
+    },
+    {
+      "sourceId": "231",
+      "symbol": "ARJ",
+      "date": "2026-09-02",
+      "close": "790.85",
+      "previousClose": "687.7",
+      "volume": 1
+    },
+    {
+      "sourceId": "17",
+      "symbol": "ATR",
+      "date": "2026-10-26",
+      "close": "37600",
+      "previousClose": "37600",
+      "volume": 1
+    },
+    {
+      "sourceId": "227",
+      "symbol": "AZH",
+      "date": "2026-09-08",
+      "close": "215000",
+      "previousClose": "250000",
+      "volume": 100
+    },
+    {
+      "sourceId": "152",
+      "symbol": "BAJ",
+      "date": "2000-09-29",
+      "close": "3",
+      "previousClose": null,
+      "volume": 4940
+    },
+    {
+      "sourceId": "396",
+      "symbol": "BAN",
+      "date": "2026-10-29",
+      "close": "1950",
+      "previousClose": "1950",
+      "volume": 205
+    },
+    {
+      "sourceId": "136",
+      "symbol": "BAZ",
+      "date": "2026-04-22",
+      "close": "1699",
+      "previousClose": "1998",
+      "volume": 9
+    },
+    {
+      "sourceId": "269",
+      "symbol": "BBD",
+      "date": "2026-09-23",
+      "close": "161",
+      "previousClose": "161",
+      "volume": 42
+    },
+    {
+      "sourceId": "444",
+      "symbol": "BDL",
+      "date": "2026-10-27",
+      "close": "12500",
+      "previousClose": "11500",
+      "volume": 7
+    },
+    {
+      "sourceId": "522",
+      "symbol": "BDS",
+      "date": "2026-10-29",
+      "close": "1543",
+      "previousClose": "1656",
+      "volume": 132
+    },
+    {
+      "sourceId": "492",
+      "symbol": "BEU",
+      "date": "2026-08-07",
+      "close": "810",
+      "previousClose": "952",
+      "volume": 1
+    },
+    {
+      "sourceId": "69",
+      "symbol": "BHG",
+      "date": "2026-10-19",
+      "close": "1036",
+      "previousClose": "1036",
+      "volume": 34
+    },
+    {
+      "sourceId": "435",
+      "symbol": "BHL",
+      "date": "2026-10-26",
+      "close": "485.01",
+      "previousClose": "500",
+      "volume": 4
+    },
+    {
+      "sourceId": "239",
+      "symbol": "BLC",
+      "date": "2026-10-28",
+      "close": "1115",
+      "previousClose": "1115",
+      "volume": 9
+    },
+    {
+      "sourceId": "204",
+      "symbol": "BLG",
+      "date": "2023-04-07",
+      "close": "26.45",
+      "previousClose": "23",
+      "volume": 70
+    },
+    {
+      "sourceId": "13",
+      "symbol": "BNG",
+      "date": "2026-09-30",
+      "close": "30000",
+      "previousClose": "30000",
+      "volume": 45
+    },
+    {
+      "sourceId": "554",
+      "symbol": "BODI",
+      "date": "2026-10-29",
+      "close": "120.23",
+      "previousClose": "121",
+      "volume": 10
+    },
+    {
+      "sourceId": "466",
+      "symbol": "BOE",
+      "date": "2026-10-22",
+      "close": "3709",
+      "previousClose": "3226",
+      "volume": 6
+    },
+    {
+      "sourceId": "207",
+      "symbol": "BOR",
+      "date": "2008-01-18",
+      "close": "230",
+      "previousClose": null,
+      "volume": 200
+    },
+    {
+      "sourceId": "476",
+      "symbol": "BRC",
+      "date": "2025-06-03",
+      "close": "535.61",
+      "previousClose": "465.75",
+      "volume": 2008
+    },
+    {
+      "sourceId": "176",
+      "symbol": "BSKY",
+      "date": "2026-07-23",
+      "close": "2347",
+      "previousClose": "2347",
+      "volume": 2
+    },
+    {
+      "sourceId": "445",
+      "symbol": "BTG",
+      "date": "2026-10-16",
+      "close": "57500",
+      "previousClose": "50000",
+      "volume": 26
+    },
+    {
+      "sourceId": "195",
+      "symbol": "BUK",
+      "date": "2026-10-22",
+      "close": "284",
+      "previousClose": "284",
+      "volume": 366
+    },
+    {
+      "sourceId": "448",
+      "symbol": "CHR",
+      "date": "2026-10-23",
+      "close": "435",
+      "previousClose": "435",
+      "volume": 9
+    },
+    {
+      "sourceId": "33",
+      "symbol": "CND",
+      "date": "2022-08-01",
+      "close": "702.63",
+      "previousClose": "610.99",
+      "volume": 35
+    },
+    {
+      "sourceId": "308",
+      "symbol": "CNF",
+      "date": "2026-10-29",
+      "close": "30800",
+      "previousClose": "31780",
+      "volume": 5
+    },
+    {
+      "sourceId": "557",
+      "symbol": "CUMN",
+      "date": "2026-10-29",
+      "close": "300",
+      "previousClose": "298.54",
+      "volume": 5210
+    },
+    {
+      "sourceId": "254",
+      "symbol": "DAH",
+      "date": "2026-09-18",
+      "close": "17500",
+      "previousClose": "17500",
+      "volume": 50
+    },
+    {
+      "sourceId": "252",
+      "symbol": "DAR",
+      "date": "2026-10-29",
+      "close": "4500",
+      "previousClose": "4500",
+      "volume": 7
+    },
+    {
+      "sourceId": "311",
+      "symbol": "DES",
+      "date": "2024-05-14",
+      "close": "18000",
+      "previousClose": "18970",
+      "volume": 16
+    },
+    {
+      "sourceId": "380",
+      "symbol": "DHU",
+      "date": "2026-10-12",
+      "close": "1650",
+      "previousClose": "1600",
+      "volume": 3
+    },
+    {
+      "sourceId": "118",
+      "symbol": "DLH",
+      "date": "2022-11-22",
+      "close": "880",
+      "previousClose": "900",
+      "volume": 1
+    },
+    {
+      "sourceId": "508",
+      "symbol": "DSS",
+      "date": "2005-07-06",
+      "close": "53",
+      "previousClose": null,
+      "volume": 1869321
+    },
+    {
+      "sourceId": "366",
+      "symbol": "DZG",
+      "date": "2026-10-29",
+      "close": "250",
+      "previousClose": "235",
+      "volume": 105
+    },
+    {
+      "sourceId": "469",
+      "symbol": "EAZ",
+      "date": "2026-10-07",
+      "close": "489",
+      "previousClose": "489",
+      "volume": 50
+    },
+    {
+      "sourceId": "425",
+      "symbol": "ECV",
+      "date": "2026-05-07",
+      "close": "15890",
+      "previousClose": "16600",
+      "volume": 1
+    },
+    {
+      "sourceId": "191",
+      "symbol": "EER",
+      "date": "2026-10-28",
+      "close": "5000",
+      "previousClose": "5000",
+      "volume": 1
+    },
+    {
+      "sourceId": "546",
+      "symbol": "ERDN",
+      "date": "2026-10-29",
+      "close": "16960",
+      "previousClose": "16970",
+      "volume": 221
+    },
+    {
+      "sourceId": "68",
+      "symbol": "ERS",
+      "date": "2026-10-29",
+      "close": "27000",
+      "previousClose": "27000",
+      "volume": 3
+    },
+    {
+      "sourceId": "537",
+      "symbol": "ETR",
+      "date": "2026-10-29",
+      "close": "105",
+      "previousClose": "105.8",
+      "volume": 100
+    },
+    {
+      "sourceId": "565",
+      "symbol": "GAZR",
+      "date": "2026-10-29",
+      "close": "35.11",
+      "previousClose": "35.82",
+      "volume": 41718
+    },
+    {
+      "sourceId": "148",
+      "symbol": "GFG",
+      "date": "2025-12-30",
+      "close": "800",
+      "previousClose": "940",
+      "volume": 8
+    },
+    {
+      "sourceId": "234",
+      "symbol": "GHC",
+      "date": "2026-09-07",
+      "close": "4255",
+      "previousClose": "3700",
+      "volume": 1
+    },
+    {
+      "sourceId": "562",
+      "symbol": "GLMT",
+      "date": "2026-10-29",
+      "close": "1280",
+      "previousClose": "1279",
+      "volume": 35527
+    },
+    {
+      "sourceId": "88",
+      "symbol": "GTL",
+      "date": "2026-10-12",
+      "close": "65000",
+      "previousClose": "67000",
+      "volume": 1
+    },
+    {
+      "sourceId": "96",
+      "symbol": "GUR",
+      "date": "2024-12-09",
+      "close": "110.17",
+      "previousClose": "95.8",
+      "volume": 99
+    },
+    {
+      "sourceId": "120",
+      "symbol": "HAM",
+      "date": "2026-07-23",
+      "close": "2309",
+      "previousClose": "2309",
+      "volume": 28
+    },
+    {
+      "sourceId": "525",
+      "symbol": "HBO",
+      "date": "2026-10-27",
+      "close": "48.19",
+      "previousClose": "48.19",
+      "volume": 480
+    },
+    {
+      "sourceId": "454",
+      "symbol": "HBT",
+      "date": "2006-01-19",
+      "close": "200",
+      "previousClose": null,
+      "volume": 77148
+    },
+    {
+      "sourceId": "65",
+      "symbol": "HBZ",
+      "date": "2026-08-19",
+      "close": "3069",
+      "previousClose": "2669",
+      "volume": 2
+    },
+    {
+      "sourceId": "532",
+      "symbol": "HGN",
+      "date": "2026-10-28",
+      "close": "32.5",
+      "previousClose": "37.8",
+      "volume": 6121
+    },
+    {
+      "sourceId": "179",
+      "symbol": "HHN",
+      "date": "2026-10-26",
+      "close": "7450",
+      "previousClose": "8050",
+      "volume": 5
+    },
+    {
+      "sourceId": "431",
+      "symbol": "HHS",
+      "date": "2026-07-24",
+      "close": "3550",
+      "previousClose": "3700",
+      "volume": 10
+    },
+    {
+      "sourceId": "409",
+      "symbol": "HJL",
+      "date": "2025-05-27",
+      "close": "1527",
+      "previousClose": "1328",
+      "volume": 168
+    },
+    {
+      "sourceId": "125",
+      "symbol": "HML",
+      "date": "2026-10-21",
+      "close": "396",
+      "previousClose": "345",
+      "volume": 100
+    },
+    {
+      "sourceId": "8",
+      "symbol": "HRD",
+      "date": "2026-10-27",
+      "close": "90000",
+      "previousClose": "93200",
+      "volume": 33
+    },
+    {
+      "sourceId": "133",
+      "symbol": "HRL",
+      "date": "2026-10-12",
+      "close": "66",
+      "previousClose": "66.01",
+      "volume": 100
+    },
+    {
+      "sourceId": "528",
+      "symbol": "HRM",
+      "date": "2026-10-29",
+      "close": "284.84",
+      "previousClose": "259.5",
+      "volume": 4297
+    },
+    {
+      "sourceId": "56",
+      "symbol": "HSG",
+      "date": "2026-09-15",
+      "close": "48200",
+      "previousClose": "41960",
+      "volume": 18
+    },
+    {
+      "sourceId": "378",
+      "symbol": "HSR",
+      "date": "2026-09-03",
+      "close": "2544",
+      "previousClose": "2540",
+      "volume": 5
+    },
+    {
+      "sourceId": "376",
+      "symbol": "HSX",
+      "date": "2026-09-18",
+      "close": "8500",
+      "previousClose": "8500",
+      "volume": 2
+    },
+    {
+      "sourceId": "94",
+      "symbol": "HUN",
+      "date": "2022-05-10",
+      "close": "29.9",
+      "previousClose": "26",
+      "volume": 50
+    },
+    {
+      "sourceId": "108",
+      "symbol": "HUV",
+      "date": "2019-05-17",
+      "close": "189.75",
+      "previousClose": "165",
+      "volume": 350
+    },
+    {
+      "sourceId": "459",
+      "symbol": "IBA",
+      "date": "2026-08-11",
+      "close": "1530",
+      "previousClose": "1800",
+      "volume": 151
+    },
+    {
+      "sourceId": "553",
+      "symbol": "INV",
+      "date": "2026-10-28",
+      "close": "7790",
+      "previousClose": "7700",
+      "volume": 1057
+    },
+    {
+      "sourceId": "86",
+      "symbol": "JGL",
+      "date": "2022-11-14",
+      "close": "163.99",
+      "previousClose": "142.6",
+      "volume": 10
+    },
+    {
+      "sourceId": "61",
+      "symbol": "JGV",
+      "date": "2026-02-16",
+      "close": "2350",
+      "previousClose": "2350",
+      "volume": 20
+    },
+    {
+      "sourceId": "201",
+      "symbol": "JLT",
+      "date": "2026-10-26",
+      "close": "44",
+      "previousClose": "44",
+      "volume": 1211
+    },
+    {
+      "sourceId": "521",
+      "symbol": "JTB",
+      "date": "2026-10-28",
+      "close": "63.92",
+      "previousClose": "65.01",
+      "volume": 14023
+    },
+    {
+      "sourceId": "40",
+      "symbol": "KEK",
+      "date": "2026-09-10",
+      "close": "9200",
+      "previousClose": "8000",
+      "volume": 9
+    },
+    {
+      "sourceId": "563",
+      "symbol": "KHAN",
+      "date": "2026-10-29",
+      "close": "2056",
+      "previousClose": "2053",
+      "volume": 96430
+    },
+    {
+      "sourceId": "545",
+      "symbol": "LEND",
+      "date": "2026-10-29",
+      "close": "172.29",
+      "previousClose": "170.05",
+      "volume": 34296
+    },
+    {
+      "sourceId": "571",
+      "symbol": "LOT",
+      "date": "2026-10-20",
+      "close": "1300",
+      "previousClose": "1300",
+      "volume": 107
+    },
+    {
+      "sourceId": "38",
+      "symbol": "MBG",
+      "date": "2026-10-29",
+      "close": "18",
+      "previousClose": "17.99",
+      "volume": 17304
+    },
+    {
+      "sourceId": "544",
+      "symbol": "MBW",
+      "date": "2026-10-29",
+      "close": "161.53",
+      "previousClose": "160.15",
+      "volume": 55
+    },
+    {
+      "sourceId": "209",
+      "symbol": "MCH",
+      "date": "2026-10-27",
+      "close": "650",
+      "previousClose": "649.85",
+      "volume": 907
+    },
+    {
+      "sourceId": "162",
+      "symbol": "MDIC",
+      "date": "2026-09-10",
+      "close": "1800",
+      "previousClose": "1800",
+      "volume": 50
+    },
+    {
+      "sourceId": "524",
+      "symbol": "MDR",
+      "date": "2026-10-22",
+      "close": "316",
+      "previousClose": "316",
+      "volume": 9
+    },
+    {
+      "sourceId": "290",
+      "symbol": "MDZ",
+      "date": "2026-08-24",
+      "close": "5800",
+      "previousClose": "5800",
+      "volume": 1
+    },
+    {
+      "sourceId": "551",
+      "symbol": "MFC",
+      "date": "2026-10-29",
+      "close": "77.2",
+      "previousClose": "77.93",
+      "volume": 24566
+    },
+    {
+      "sourceId": "572",
+      "symbol": "MGLA",
+      "date": "2026-10-29",
+      "close": "290",
+      "previousClose": "291.82",
+      "volume": 250
+    },
+    {
+      "sourceId": "25",
+      "symbol": "MIB",
+      "date": "2026-10-20",
+      "close": "72",
+      "previousClose": "72",
+      "volume": 15
+    },
+    {
+      "sourceId": "379",
+      "symbol": "MIE",
+      "date": "2026-09-16",
+      "close": "7500",
+      "previousClose": "7800",
+      "volume": 1
+    },
+    {
+      "sourceId": "542",
+      "symbol": "MIK",
+      "date": "2026-10-26",
+      "close": "17000",
+      "previousClose": "17000",
+      "volume": 1
+    },
+    {
+      "sourceId": "569",
+      "symbol": "MLG",
+      "date": "2026-10-29",
+      "close": "180.23",
+      "previousClose": "179.6",
+      "volume": 28997
+    },
+    {
+      "sourceId": "208",
+      "symbol": "MMX",
+      "date": "2026-10-28",
+      "close": "5600",
+      "previousClose": "5780",
+      "volume": 30
+    },
+    {
+      "sourceId": "471",
+      "symbol": "MNB",
+      "date": "2026-07-27",
+      "close": "2072",
+      "previousClose": "1802",
+      "volume": 20
+    },
+    {
+      "sourceId": "547",
+      "symbol": "MNDL",
+      "date": "2026-10-29",
+      "close": "84.99",
+      "previousClose": "85.54",
+      "volume": 126855
+    },
+    {
+      "sourceId": "80",
+      "symbol": "MNG",
+      "date": "2026-07-20",
+      "close": "3438",
+      "previousClose": "2990",
+      "volume": 15
+    },
+    {
+      "sourceId": "9",
+      "symbol": "MNH",
+      "date": "2026-10-13",
+      "close": "9350",
+      "previousClose": "11000",
+      "volume": 1
+    },
+    {
+      "sourceId": "541",
+      "symbol": "MNP",
+      "date": "2026-10-29",
+      "close": "606",
+      "previousClose": "607",
+      "volume": 92
+    },
+    {
+      "sourceId": "23",
+      "symbol": "MNS",
+      "date": "2026-10-20",
+      "close": "15100",
+      "previousClose": "16700",
+      "volume": 41
+    },
+    {
+      "sourceId": "332",
+      "symbol": "MOG",
+      "date": "2026-05-05",
+      "close": "7865",
+      "previousClose": "7000",
+      "volume": 1
+    },
+    {
+      "sourceId": "540",
+      "symbol": "MRX",
+      "date": "2026-10-27",
+      "close": "28",
+      "previousClose": "29",
+      "volume": 4
+    },
+    {
+      "sourceId": "503",
+      "symbol": "MSC",
+      "date": "2026-10-29",
+      "close": "157",
+      "previousClose": "158",
+      "volume": 5
+    },
+    {
+      "sourceId": "510",
+      "symbol": "MSE",
+      "date": "2026-10-29",
+      "close": "407.68",
+      "previousClose": "404.09",
+      "volume": 32989
+    },
+    {
+      "sourceId": "517",
+      "symbol": "MSH",
+      "date": "2026-10-14",
+      "close": "240",
+      "previousClose": "240",
+      "volume": 25
+    },
+    {
+      "sourceId": "236",
+      "symbol": "MVO",
+      "date": "2026-10-28",
+      "close": "1069",
+      "previousClose": "1050",
+      "volume": 22
+    },
+    {
+      "sourceId": "71",
+      "symbol": "NEH",
+      "date": "2026-10-29",
+      "close": "23.55",
+      "previousClose": "23.53",
+      "volume": 10854
+    },
+    {
+      "sourceId": "200",
+      "symbol": "NOG",
+      "date": "2023-10-16",
+      "close": "523.25",
+      "previousClose": "455",
+      "volume": 16
+    },
+    {
+      "sourceId": "67",
+      "symbol": "NXE",
+      "date": "2026-07-08",
+      "close": "2465",
+      "previousClose": "2465",
+      "volume": 17
+    },
+    {
+      "sourceId": "527",
+      "symbol": "OLL",
+      "date": "2026-10-29",
+      "close": "96",
+      "previousClose": "96.02",
+      "volume": 6
+    },
+    {
+      "sourceId": "389",
+      "symbol": "ONH",
+      "date": "2026-08-10",
+      "close": "10500",
+      "previousClose": "10500",
+      "volume": 49
+    },
+    {
+      "sourceId": "331",
+      "symbol": "ORD",
+      "date": "2026-10-02",
+      "close": "1320",
+      "previousClose": "1552",
+      "volume": 82
+    },
+    {
+      "sourceId": "570",
+      "symbol": "QPAY",
+      "date": "2026-10-29",
+      "close": "498.03",
+      "previousClose": "494.37",
+      "volume": 26857
+    },
+    {
+      "sourceId": "530",
+      "symbol": "RMC",
+      "date": "2026-10-29",
+      "close": "41",
+      "previousClose": "40.2",
+      "volume": 143490
+    },
+    {
+      "sourceId": "564",
+      "symbol": "SBM",
+      "date": "2026-10-29",
+      "close": "571.44",
+      "previousClose": "576.81",
+      "volume": 50683
+    },
+    {
+      "sourceId": "490",
+      "symbol": "SDT",
+      "date": "2026-10-22",
+      "close": "114.65",
+      "previousClose": "114.65",
+      "volume": 100
+    },
+    {
+      "sourceId": "561",
+      "symbol": "SEND",
+      "date": "2026-10-29",
+      "close": "152.2",
+      "previousClose": "153.99",
+      "volume": 639
+    },
+    {
+      "sourceId": "309",
+      "symbol": "SHG",
+      "date": "2026-10-29",
+      "close": "1380",
+      "previousClose": "1250",
+      "volume": 7
+    },
+    {
+      "sourceId": "460",
+      "symbol": "SHV",
+      "date": "2026-10-28",
+      "close": "2450",
+      "previousClose": "2450",
+      "volume": 4
+    },
+    {
+      "sourceId": "317",
+      "symbol": "SIL",
+      "date": "2026-10-27",
+      "close": "40",
+      "previousClose": "40",
+      "volume": 260
+    },
+    {
+      "sourceId": "385",
+      "symbol": "SOH",
+      "date": "2026-10-15",
+      "close": "787",
+      "previousClose": "800",
+      "volume": 1
+    },
+    {
+      "sourceId": "97",
+      "symbol": "SOR",
+      "date": "2026-10-29",
+      "close": "4310",
+      "previousClose": "4310",
+      "volume": 5
+    },
+    {
+      "sourceId": "54",
+      "symbol": "SSG",
+      "date": "2026-01-26",
+      "close": "3579",
+      "previousClose": "3579",
+      "volume": 3
+    },
+    {
+      "sourceId": "34",
+      "symbol": "SUL",
+      "date": "2026-10-26",
+      "close": "40000",
+      "previousClose": "37000",
+      "volume": 10
+    },
+    {
+      "sourceId": "246",
+      "symbol": "SUN",
+      "date": "2026-07-28",
+      "close": "480",
+      "previousClose": "480",
+      "volume": 10
+    },
+    {
+      "sourceId": "135",
+      "symbol": "SUU",
+      "date": "2026-10-29",
+      "close": "608.98",
+      "previousClose": "609.97",
+      "volume": 3535
+    },
+    {
+      "sourceId": "377",
+      "symbol": "SVR",
+      "date": "2012-10-12",
+      "close": "7670",
+      "previousClose": "6670",
+      "volume": 10
+    },
+    {
+      "sourceId": "464",
+      "symbol": "TAL",
+      "date": "2020-10-07",
+      "close": "18.25",
+      "previousClose": "15.87",
+      "volume": 350
+    },
+    {
+      "sourceId": "438",
+      "symbol": "TAND",
+      "date": "2026-10-29",
+      "close": "80.81",
+      "previousClose": "85",
+      "volume": 500
+    },
+    {
+      "sourceId": "154",
+      "symbol": "TAS",
+      "date": "2025-04-04",
+      "close": "3500",
+      "previousClose": "3487",
+      "volume": 5
+    },
+    {
+      "sourceId": "567",
+      "symbol": "TDB",
+      "date": "2026-10-29",
+      "close": "12570",
+      "previousClose": "12670",
+      "volume": 4785
+    },
+    {
+      "sourceId": "217",
+      "symbol": "TEE",
+      "date": "2026-09-15",
+      "close": "17950",
+      "previousClose": "15610",
+      "volume": 25
+    },
+    {
+      "sourceId": "441",
+      "symbol": "TEX",
+      "date": "2026-10-01",
+      "close": "29200",
+      "previousClose": "34300",
+      "volume": 1
+    },
+    {
+      "sourceId": "573",
+      "symbol": "TGI",
+      "date": "2026-10-29",
+      "close": "796.33",
+      "previousClose": "799",
+      "volume": 9
+    },
+    {
+      "sourceId": "196",
+      "symbol": "TGS",
+      "date": "2017-05-02",
+      "close": "102",
+      "previousClose": "100",
+      "volume": 7326
+    },
+    {
+      "sourceId": "142",
+      "symbol": "TMZ",
+      "date": "2026-03-02",
+      "close": "9475",
+      "previousClose": "8240",
+      "volume": 3
+    },
+    {
+      "sourceId": "408",
+      "symbol": "TNGR",
+      "date": "2026-10-28",
+      "close": "2151",
+      "previousClose": "2151",
+      "volume": 109
+    },
+    {
+      "sourceId": "458",
+      "symbol": "TTL",
+      "date": "2026-10-29",
+      "close": "59750",
+      "previousClose": "59550",
+      "volume": 1087
+    },
+    {
+      "sourceId": "549",
+      "symbol": "TUM",
+      "date": "2026-10-29",
+      "close": "478.09",
+      "previousClose": "478.86",
+      "volume": 11637
+    },
+    {
+      "sourceId": "386",
+      "symbol": "TUS",
+      "date": "2026-10-26",
+      "close": "291.1",
+      "previousClose": "291",
+      "volume": 2
+    },
+    {
+      "sourceId": "41",
+      "symbol": "TVL",
+      "date": "2026-10-05",
+      "close": "34080",
+      "previousClose": "34080",
+      "volume": 22
+    },
+    {
+      "sourceId": "455",
+      "symbol": "TVT",
+      "date": "2026-09-02",
+      "close": "2892",
+      "previousClose": "2891",
+      "volume": 10
+    },
+    {
+      "sourceId": "7",
+      "symbol": "UBH",
+      "date": "2026-06-09",
+      "close": "53000",
+      "previousClose": "53000",
+      "volume": 20
+    },
+    {
+      "sourceId": "484",
+      "symbol": "UID",
+      "date": "2026-10-28",
+      "close": "3005",
+      "previousClose": "3114",
+      "volume": 96
+    },
+    {
+      "sourceId": "98",
+      "symbol": "ULZ",
+      "date": "2023-08-10",
+      "close": "34.5",
+      "previousClose": "30",
+      "volume": 756
+    },
+    {
+      "sourceId": "325",
+      "symbol": "UNS",
+      "date": "2026-09-14",
+      "close": "18200",
+      "previousClose": "15900",
+      "volume": 1
+    },
+    {
+      "sourceId": "2",
+      "symbol": "UYN",
+      "date": "2026-10-29",
+      "close": "940",
+      "previousClose": "1050",
+      "volume": 112
+    },
+    {
+      "sourceId": "568",
+      "symbol": "XAC",
+      "date": "2026-10-29",
+      "close": "1595",
+      "previousClose": "1590",
+      "volume": 3997
+    }
+  ],
+  "coverage": {
+    "listed": 160,
+    "priced": 154,
+    "failed": [
+      "GOV",
+      "ITLS",
+      "TCK"
+    ]
+  }
+}
