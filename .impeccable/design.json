@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T10:36:22.505142Z",
+  "title": "Design System: Equities",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Forest",
+        "tonalRamp": [
+          "oklch(15% 0.06080 171.63)",
+          "oklch(26.43% 0.06080 171.63)",
+          "oklch(37.86% 0.06080 171.63)",
+          "oklch(49.29% 0.06080 171.63)",
+          "oklch(60.71% 0.06080 171.63)",
+          "oklch(72.14% 0.06080 171.63)",
+          "oklch(83.57% 0.06080 171.63)",
+          "oklch(95% 0.06080 171.63)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Forest hover",
+        "tonalRamp": [
+          "oklch(15% 0.05179 172.26)",
+          "oklch(26.43% 0.05179 172.26)",
+          "oklch(37.86% 0.05179 172.26)",
+          "oklch(49.29% 0.05179 172.26)",
+          "oklch(60.71% 0.05179 172.26)",
+          "oklch(72.14% 0.05179 172.26)",
+          "oklch(83.57% 0.05179 172.26)",
+          "oklch(95% 0.05179 172.26)"
+        ]
+      },
+      "positive": {
+        "role": "secondary",
+        "displayName": "Gain green",
+        "tonalRamp": [
+          "oklch(15% 0.08709 163.90)",
+          "oklch(26.43% 0.08709 163.90)",
+          "oklch(37.86% 0.08709 163.90)",
+          "oklch(49.29% 0.08709 163.90)",
+          "oklch(60.71% 0.08709 163.90)",
+          "oklch(72.14% 0.08709 163.90)",
+          "oklch(83.57% 0.08709 163.90)",
+          "oklch(95% 0.08709 163.90)"
+        ]
+      },
+      "positive-bg": {
+        "role": "secondary",
+        "displayName": "Gain tint",
+        "tonalRamp": [
+          "oklch(15% 0.01409 162.47)",
+          "oklch(26.43% 0.01409 162.47)",
+          "oklch(37.86% 0.01409 162.47)",
+          "oklch(49.29% 0.01409 162.47)",
+          "oklch(60.71% 0.01409 162.47)",
+          "oklch(72.14% 0.01409 162.47)",
+          "oklch(83.57% 0.01409 162.47)",
+          "oklch(95% 0.01409 162.47)"
+        ]
+      },
+      "negative": {
+        "role": "secondary",
+        "displayName": "Loss red",
+        "tonalRamp": [
+          "oklch(15% 0.14111 23.43)",
+          "oklch(26.43% 0.14111 23.43)",
+          "oklch(37.86% 0.14111 23.43)",
+          "oklch(49.29% 0.14111 23.43)",
+          "oklch(60.71% 0.14111 23.43)",
+          "oklch(72.14% 0.14111 23.43)",
+          "oklch(83.57% 0.14111 23.43)",
+          "oklch(95% 0.14111 23.43)"
+        ]
+      },
+      "negative-bg": {
+        "role": "secondary",
+        "displayName": "Loss tint",
+        "tonalRamp": [
+          "oklch(15% 0.01522 17.43)",
+          "oklch(26.43% 0.01522 17.43)",
+          "oklch(37.86% 0.01522 17.43)",
+          "oklch(49.29% 0.01522 17.43)",
+          "oklch(60.71% 0.01522 17.43)",
+          "oklch(72.14% 0.01522 17.43)",
+          "oklch(83.57% 0.01522 17.43)",
+          "oklch(95% 0.01522 17.43)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Cool paper",
+        "tonalRamp": [
+          "oklch(15% 0.00286 264.54)",
+          "oklch(26.43% 0.00286 264.54)",
+          "oklch(37.86% 0.00286 264.54)",
+          "oklch(49.29% 0.00286 264.54)",
+          "oklch(60.71% 0.00286 264.54)",
+          "oklch(72.14% 0.00286 264.54)",
+          "oklch(83.57% 0.00286 264.54)",
+          "oklch(95% 0.00286 264.54)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White surface",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.01486 244.19)",
+          "oklch(26.43% 0.01486 244.19)",
+          "oklch(37.86% 0.01486 244.19)",
+          "oklch(49.29% 0.01486 244.19)",
+          "oklch(60.71% 0.01486 244.19)",
+          "oklch(72.14% 0.01486 244.19)",
+          "oklch(83.57% 0.01486 244.19)",
+          "oklch(95% 0.01486 244.19)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "tonalRamp": [
+          "oklch(15% 0.02097 250.74)",
+          "oklch(26.43% 0.02097 250.74)",
+          "oklch(37.86% 0.02097 250.74)",
+          "oklch(49.29% 0.02097 250.74)",
+          "oklch(60.71% 0.02097 250.74)",
+          "oklch(72.14% 0.02097 250.74)",
+          "oklch(83.57% 0.02097 250.74)",
+          "oklch(95% 0.02097 250.74)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline gray",
+        "tonalRamp": [
+          "oklch(15% 0.00692 247.90)",
+          "oklch(26.43% 0.00692 247.90)",
+          "oklch(37.86% 0.00692 247.90)",
+          "oklch(49.29% 0.00692 247.90)",
+          "oklch(60.71% 0.00692 247.90)",
+          "oklch(72.14% 0.00692 247.90)",
+          "oklch(83.57% 0.00692 247.90)",
+          "oklch(95% 0.00692 247.90)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus green",
+        "tonalRamp": [
+          "oklch(15% 0.06941 172.03)",
+          "oklch(26.43% 0.06941 172.03)",
+          "oklch(37.86% 0.06941 172.03)",
+          "oklch(49.29% 0.06941 172.03)",
+          "oklch(60.71% 0.06941 172.03)",
+          "oklch(72.14% 0.06941 172.03)",
+          "oklch(83.57% 0.06941 172.03)",
+          "oklch(95% 0.06941 172.03)"
+        ]
+      },
+      "footer-link": {
+        "role": "neutral",
+        "displayName": "Muted forest",
+        "tonalRamp": [
+          "oklch(15% 0.02983 164.65)",
+          "oklch(26.43% 0.02983 164.65)",
+          "oklch(37.86% 0.02983 164.65)",
+          "oklch(49.29% 0.02983 164.65)",
+          "oklch(60.71% 0.02983 164.65)",
+          "oklch(72.14% 0.02983 164.65)",
+          "oklch(83.57% 0.02983 164.65)",
+          "oklch(95% 0.02983 164.65)"
+        ]
+      },
+      "warning-bg": {
+        "role": "secondary",
+        "displayName": "Warning tint",
+        "tonalRamp": [
+          "oklch(15% 0.02492 81.13)",
+          "oklch(26.43% 0.02492 81.13)",
+          "oklch(37.86% 0.02492 81.13)",
+          "oklch(49.29% 0.02492 81.13)",
+          "oklch(60.71% 0.02492 81.13)",
+          "oklch(72.14% 0.02492 81.13)",
+          "oklch(83.57% 0.02492 81.13)",
+          "oklch(95% 0.02492 81.13)"
+        ]
+      },
+      "warning-text": {
+        "role": "secondary",
+        "displayName": "Warning brown",
+        "tonalRamp": [
+          "oklch(15% 0.07749 72.36)",
+          "oklch(26.43% 0.07749 72.36)",
+          "oklch(37.86% 0.07749 72.36)",
+          "oklch(49.29% 0.07749 72.36)",
+          "oklch(60.71% 0.07749 72.36)",
+          "oklch(72.14% 0.07749 72.36)",
+          "oklch(83.57% 0.07749 72.36)",
+          "oklch(95% 0.07749 72.36)"
+        ]
+      },
+      "example-bg": {
+        "role": "secondary",
+        "displayName": "Example tint",
+        "tonalRamp": [
+          "oklch(15% 0.00837 236.56)",
+          "oklch(26.43% 0.00837 236.56)",
+          "oklch(37.86% 0.00837 236.56)",
+          "oklch(49.29% 0.00837 236.56)",
+          "oklch(60.71% 0.00837 236.56)",
+          "oklch(72.14% 0.00837 236.56)",
+          "oklch(83.57% 0.00837 236.56)",
+          "oklch(95% 0.00837 236.56)"
+        ]
+      },
+      "example-text": {
+        "role": "secondary",
+        "displayName": "Example blue",
+        "tonalRamp": [
+          "oklch(15% 0.04577 243.20)",
+          "oklch(26.43% 0.04577 243.20)",
+          "oklch(37.86% 0.04577 243.20)",
+          "oklch(49.29% 0.04577 243.20)",
+          "oklch(60.71% 0.04577 243.20)",
+          "oklch(72.14% 0.04577 243.20)",
+          "oklch(83.57% 0.04577 243.20)",
+          "oklch(95% 0.04577 243.20)"
+        ]
+      },
+      "allocation-forest": {
+        "role": "secondary",
+        "displayName": "Allocation forest",
+        "tonalRamp": [
+          "oklch(15% 0.06807 172.08)",
+          "oklch(26.43% 0.06807 172.08)",
+          "oklch(37.86% 0.06807 172.08)",
+          "oklch(49.29% 0.06807 172.08)",
+          "oklch(60.71% 0.06807 172.08)",
+          "oklch(72.14% 0.06807 172.08)",
+          "oklch(83.57% 0.06807 172.08)",
+          "oklch(95% 0.06807 172.08)"
+        ]
+      },
+      "allocation-blue": {
+        "role": "secondary",
+        "displayName": "Allocation blue",
+        "tonalRamp": [
+          "oklch(15% 0.06097 257.46)",
+          "oklch(26.43% 0.06097 257.46)",
+          "oklch(37.86% 0.06097 257.46)",
+          "oklch(49.29% 0.06097 257.46)",
+          "oklch(60.71% 0.06097 257.46)",
+          "oklch(72.14% 0.06097 257.46)",
+          "oklch(83.57% 0.06097 257.46)",
+          "oklch(95% 0.06097 257.46)"
+        ]
+      },
+      "allocation-sage": {
+        "role": "secondary",
+        "displayName": "Allocation sage",
+        "tonalRamp": [
+          "oklch(15% 0.02694 161.72)",
+          "oklch(26.43% 0.02694 161.72)",
+          "oklch(37.86% 0.02694 161.72)",
+          "oklch(49.29% 0.02694 161.72)",
+          "oklch(60.71% 0.02694 161.72)",
+          "oklch(72.14% 0.02694 161.72)",
+          "oklch(83.57% 0.02694 161.72)",
+          "oklch(95% 0.02694 161.72)"
+        ]
+      },
+      "allocation-lilac": {
+        "role": "secondary",
+        "displayName": "Allocation lilac",
+        "tonalRamp": [
+          "oklch(15% 0.04243 297.95)",
+          "oklch(26.43% 0.04243 297.95)",
+          "oklch(37.86% 0.04243 297.95)",
+          "oklch(49.29% 0.04243 297.95)",
+          "oklch(60.71% 0.04243 297.95)",
+          "oklch(72.14% 0.04243 297.95)",
+          "oklch(83.57% 0.04243 297.95)",
+          "oklch(95% 0.04243 297.95)"
+        ]
+      },
+      "allocation-sand": {
+        "role": "secondary",
+        "displayName": "Allocation sand",
+        "tonalRamp": [
+          "oklch(15% 0.07275 80.43)",
+          "oklch(26.43% 0.07275 80.43)",
+          "oklch(37.86% 0.07275 80.43)",
+          "oklch(49.29% 0.07275 80.43)",
+          "oklch(60.71% 0.07275 80.43)",
+          "oklch(72.14% 0.07275 80.43)",
+          "oklch(83.57% 0.07275 80.43)",
+          "oklch(95% 0.07275 80.43)"
+        ]
+      },
+      "allocation-teal": {
+        "role": "secondary",
+        "displayName": "Allocation teal",
+        "tonalRamp": [
+          "oklch(15% 0.04925 199.47)",
+          "oklch(26.43% 0.04925 199.47)",
+          "oklch(37.86% 0.04925 199.47)",
+          "oklch(49.29% 0.04925 199.47)",
+          "oklch(60.71% 0.04925 199.47)",
+          "oklch(72.14% 0.04925 199.47)",
+          "oklch(83.57% 0.04925 199.47)",
+          "oklch(95% 0.04925 199.47)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Page title",
+        "purpose": "Main page heading; responsive size variants are recorded in Layout and Typography."
+      },
+      "headline": {
+        "displayName": "Drawer title",
+        "purpose": "Native dialog headings."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Portfolio-mix and explanatory section headings."
+      },
+      "body": {
+        "displayName": "Inherited body",
+        "purpose": "Root font default; most visible interface elements set compact sizes."
+      },
+      "body-copy": {
+        "displayName": "Supporting prose",
+        "purpose": "Drawer introductions and help text."
+      },
+      "label": {
+        "displayName": "Action label",
+        "purpose": "Standard buttons."
+      },
+      "metric": {
+        "displayName": "Financial total",
+        "purpose": "Open summary figures; use tabular numerals."
+      },
+      "badge": {
+        "displayName": "Return badge",
+        "purpose": "Compact semantic percentage labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dropdown",
+        "value": "0 7px 24px #24352e1c",
+        "purpose": "Export format menu."
+      },
+      {
+        "name": "drawer",
+        "value": "-12px 0 45px #1d2c2721",
+        "purpose": "Native dialog at the right edge; backdrop is #13271e45."
+      },
+      {
+        "name": "toast",
+        "value": "0 4px 20px #1c35252b",
+        "purpose": "Transient confirmation near the bottom center."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-hover",
+        "value": "background 0.15s, border-color 0.15s",
+        "purpose": "Button hover changes."
+      },
+      {
+        "name": "allocation-hover",
+        "value": "opacity 0.15s",
+        "purpose": "Allocation segment hover changes opacity to 0.65."
+      },
+      {
+        "name": "drawer-entry",
+        "value": "sheet-enter 0.25s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Translate the drawer from 20px right to its resting position."
+      },
+      {
+        "name": "toast-entry",
+        "value": "toast-enter 0.25s ease-out",
+        "purpose": "Fade from opacity 0.3 to 1 while bottom moves from 18px to 28px."
+      },
+      {
+        "name": "loading-spin",
+        "value": "spin 1s linear infinite",
+        "purpose": "Reload icon while prices are loading."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "(prefers-reduced-motion: reduce)",
+        "purpose": "Disable animations and transitions; use auto scroll behavior."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1450px"
+      },
+      {
+        "name": "compact",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Forest action for adding or saving a holding.",
+      "html": "<button class=\"ds-button ds-primary\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg>Add holding</button>",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:10px 14px; min-height:37px; font:600 11px \"Manrope Variable\",sans-serif; background:var(--surface); color:var(--ink); border:1px solid #dce1e6; border-radius:7px; white-space:nowrap; cursor:pointer; transition:background .15s,border-color .15s; } .ds-button:hover { background:#f0f3f5; border-color:#c9d1d6; } .ds-button:focus-visible { outline:3px solid var(--focus); outline-offset:4px; } .ds-button:disabled { cursor:not-allowed; opacity:.45; } .ds-primary { background:var(--accent); color:var(--surface); border-color:var(--accent); } .ds-primary:hover { background:#1f493d; border-color:#1f493d; } @media(prefers-reduced-motion:reduce) { .ds-button { transition:none; } }"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined file or supporting action.",
+      "html": "<button class=\"ds-button\">Import</button>",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:10px 14px; min-height:37px; font:600 11px \"Manrope Variable\",sans-serif; background:var(--surface); color:var(--ink); border:1px solid #dce1e6; border-radius:7px; white-space:nowrap; cursor:pointer; transition:background .15s,border-color .15s; } .ds-button:hover { background:#f0f3f5; border-color:#c9d1d6; } .ds-button:focus-visible { outline:3px solid var(--focus); outline-offset:4px; } .ds-button:disabled { cursor:not-allowed; opacity:.45; } @media(prefers-reduced-motion:reduce) { .ds-button { transition:none; } }"
+    },
+    {
+      "name": "Danger button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Removal action using the standard button silhouette.",
+      "html": "<button class=\"ds-button ds-danger\">Remove</button>",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:8px; padding:10px 14px; min-height:37px; font:600 11px \"Manrope Variable\",sans-serif; background:var(--surface); color:var(--ink); border:1px solid #dce1e6; border-radius:7px; white-space:nowrap; cursor:pointer; transition:background .15s,border-color .15s; } .ds-button:hover { background:#f0f3f5; border-color:#c9d1d6; } .ds-button:focus-visible { outline:3px solid var(--focus); outline-offset:4px; } .ds-button:disabled { cursor:not-allowed; opacity:.45; } .ds-danger { color:var(--negative); } .ds-danger:hover { background:#fff3f2; border-color:#e5b7b4; } @media(prefers-reduced-motion:reduce) { .ds-button { transition:none; } }"
+    },
+    {
+      "name": "Icon button",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "Compact help or utility action with an accessible label.",
+      "html": "<button class=\"ds-icon-button\" aria-label=\"About this portfolio tracker\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3m.08 4h.01\"/></svg></button>",
+      "css": ".ds-icon-button { width:30px; height:30px; display:inline-flex; align-items:center; justify-content:center; border:0; padding:0; border-radius:6px; color:var(--muted); background:none; cursor:pointer; } .ds-icon-button:hover { background:#edf1f3; color:var(--ink); } .ds-icon-button:focus-visible { outline:3px solid var(--focus); outline-offset:4px; }"
+    },
+    {
+      "name": "Holding field",
+      "kind": "input",
+      "refersTo": "holding-input",
+      "description": "Labeled input with separate optional-unit text and keyboard focus.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-shares\">Number of shares</label><input class=\"ds-field\" id=\"ds-shares\" inputmode=\"decimal\" placeholder=\"1000\" />",
+      "css": ".ds-field-label { display:block; margin:0 0 9px; font:600 12px \"Manrope Variable\",sans-serif; color:var(--ink); } .ds-field { border:1px solid #d6dee1; border-radius:7px; min-height:43px; padding:11px 12px; background:var(--surface); color:var(--ink); font:13px \"Manrope Variable\",sans-serif; caret-color:var(--accent); min-width:0; } .ds-field::placeholder { color:#69737d; } .ds-field:focus-visible { outline:2px solid var(--focus); outline-offset:2px; }"
+    },
+    {
+      "name": "Ledger navigation",
+      "kind": "nav",
+      "refersTo": "ledger-navigation",
+      "description": "Underlined current view with compact count badges.",
+      "html": "<nav class=\"ds-ledger-nav\" aria-label=\"Portfolio views\"><button class=\"ds-current\" aria-current=\"page\">Holdings<span>6</span></button><button>Market directory<span>160</span></button></nav>",
+      "css": ".ds-ledger-nav { display:flex; gap:25px; height:57px; padding:0 22px; border-bottom:1px solid var(--line); background:var(--surface); } .ds-ledger-nav button { display:flex; align-items:center; gap:7px; padding:0 1px; position:relative; font:550 11px \"Manrope Variable\",sans-serif; color:var(--muted); border:0; background:none; cursor:pointer; } .ds-ledger-nav .ds-current { color:var(--accent); font-weight:700; } .ds-ledger-nav .ds-current:after { content:\"\"; position:absolute; height:2px; background:var(--accent); bottom:-1px; left:0; right:0; } .ds-ledger-nav button>span { background:#f0f2f4; color:#6d7780; font-size:9px; line-height:18px; min-width:18px; padding:0 5px; border-radius:4px; } .ds-ledger-nav button:focus-visible { outline:3px solid var(--focus); outline-offset:4px; } @media(max-width:720px) { .ds-ledger-nav { height:52px; gap:20px; padding:0 14px; } .ds-ledger-nav button { font-size:10px; } }"
+    },
+    {
+      "name": "Holding filters",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Quiet text filters with a pale selected state.",
+      "html": "<div class=\"ds-filters\" aria-label=\"Filter holdings\"><button class=\"ds-selected\" aria-pressed=\"true\">All holdings</button><button aria-pressed=\"false\">Gainers</button><button aria-pressed=\"false\">Losers</button></div>",
+      "css": ".ds-filters { display:flex; gap:3px; } .ds-filters button { border:0; background:none; font:10px \"Manrope Variable\",sans-serif; padding:6px 10px; color:var(--muted); border-radius:5px; cursor:pointer; } .ds-filters button:hover { background:#f4f6f7; } .ds-filters button.ds-selected { background:#f0f3f2; color:#3b564b; font-weight:650; } .ds-filters button:focus-visible { outline:3px solid var(--focus); outline-offset:4px; } @media(max-width:720px) { .ds-filters { gap:1px; } .ds-filters button { padding:5px 7px; font-size:9px; } }"
+    },
+    {
+      "name": "Return badges",
+      "kind": "chip",
+      "refersTo": "return-badge-positive",
+      "description": "Semantic gains and losses with direction and percentages.",
+      "html": "<span class=\"ds-return ds-gain\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg>12.42%</span> <span class=\"ds-return ds-loss\">-4.55%</span>",
+      "css": ".ds-return { font:650 10px/1.3 \"Manrope Variable\",sans-serif; letter-spacing:0; display:inline-flex; align-items:center; gap:2px; border-radius:5px; padding:4px 6px; font-variant-numeric:tabular-nums; } .ds-gain { background:#e8f3ed; color:var(--positive); } .ds-loss { background:#f8eaea; color:var(--negative); } @media(max-width:720px) { .ds-return { font-size:11px; padding:5px 7px; } }"
+    },
+    {
+      "name": "Holdings ledger",
+      "kind": "card",
+      "refersTo": "ledger",
+      "description": "Flat white table with dated values, fine rules, and aligned figures. Example values are illustrative.",
+      "html": "<section class=\"ds-ledger\"><table><thead><tr><th>Company</th><th>Market value</th><th>Gain / loss</th></tr></thead><tbody><tr><th><button class=\"ds-company\"><strong>APU</strong><span>АПУ ХК</span></button></th><td class=\"ds-value\">₮2,112,000<span class=\"ds-date\">29 Oct</span></td><td class=\"ds-ledger-gain\">+₮92,000<span class=\"ds-date ds-ledger-gain\">4.55%</span></td></tr></tbody></table></section>",
+      "css": ".ds-ledger { background:var(--surface); color:var(--ink); border:1px solid #dfe5e9; border-radius:10px; overflow:hidden; } .ds-ledger table { width:100%; border-collapse:collapse; text-align:right; font:11px \"Manrope Variable\",sans-serif; font-variant-numeric:tabular-nums; white-space:nowrap; } .ds-ledger thead { background:#f9fafb; color:#69737d; } .ds-ledger thead th { font-size:9px; font-weight:500; padding:11px 12px; border-bottom:1px solid var(--line); } .ds-ledger th:first-child { text-align:left; padding-left:23px; } .ds-ledger tbody tr { border-bottom:1px solid #edf0f2; } .ds-ledger tbody tr:hover { background:#fbfcfc; } .ds-ledger tbody th { padding:17px 12px 17px 22px; font-weight:500; } .ds-ledger td { padding:20px 12px; color:#48515e; } .ds-company { display:flex; flex-direction:column; gap:5px; text-align:left; border:0; background:none; padding:0; color:var(--ink); font:11px \"Manrope Variable\",sans-serif; cursor:pointer; } .ds-company strong { font-weight:650; letter-spacing:.1px; } .ds-company>span,.ds-date { display:block; font-size:9px; color:#69737d; } .ds-date { margin-top:5px; line-height:1.4; } .ds-company:hover strong { color:var(--accent); } .ds-company:focus-visible { outline:3px solid var(--focus); outline-offset:4px; } .ds-ledger .ds-value { font-weight:600; color:#303944; } .ds-ledger .ds-ledger-gain { color:var(--positive); } @media(max-width:720px) { .ds-ledger { border-radius:8px; } .ds-ledger thead th { padding:10px 8px; font-size:8px; } .ds-ledger th:first-child { padding-left:14px; } .ds-ledger tbody th { padding:15px 8px 15px 14px; } .ds-ledger td { padding:17px 8px; font-size:10px; } .ds-company { font-size:10px; } .ds-company>span,.ds-date { font-size:8px; } }"
+    },
+    {
+      "name": "Summary metric",
+      "kind": "custom",
+      "refersTo": "summary-metric",
+      "description": "Open financial total with tabular figures and a supporting note. Example value is illustrative.",
+      "html": "<div class=\"ds-metric\"><span>Market value</span><strong>₮9,378,900</strong><small>Based on latest available closing prices</small></div>",
+      "css": ".ds-metric { color:var(--ink); font-family:\"Manrope Variable\",sans-serif; } .ds-metric>span { display:flex; align-items:center; gap:6px; font-size:11px; color:#5b6570; } .ds-metric strong { font-size:29px; font-weight:550; letter-spacing:-1px; margin-top:12px; line-height:1.4; display:flex; align-items:center; gap:11px; flex-wrap:wrap; font-variant-numeric:tabular-nums; } .ds-metric small { display:block; font-size:10px; margin-top:8px; color:#69737d; line-height:1.6; } @media(min-width:1450px) { .ds-metric strong { font-size:34px; } } @media(max-width:1100px) { .ds-metric strong { font-size:25px; } } @media(max-width:720px) { .ds-metric>span { font-size:10px; } .ds-metric strong { margin-top:10px; gap:8px; letter-spacing:-.8px; } .ds-metric small { font-size:9px; max-width:165px; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The portfolio statement",
+    "overview": "Equities follows the user-pinned Tax UI reference: an open financial summary above a compact white ledger. Pale cool paper, ink text, forest actions, fine dividers, and small stroke icons support close inspection of holdings.\n\nThe interface is restrained and information-dense. Manrope provides both headings and compact labels; aligned tabular numerals give money and quantities a consistent rhythm. Company initials are text badges, not invented logos. This record describes the implemented interface in src/styles.css, src/App.tsx, and src/components/PortfolioPanels.tsx; the reviewed desktop and mobile captures agree with that source.",
+    "keyCharacteristics": [
+      "Open totals and a bordered ledger.",
+      "Forest actions with restrained green/red financial states.",
+      "Compact labels, tabular figures, and dated prices.",
+      "Flat resting surfaces; overlays carry the shadows."
+    ],
+    "rules": [],
+    "dos": [
+      "Do use the existing forest action color and Manrope family.",
+      "Do align financial columns with tabular numerals and keep signs, percentages, and labels alongside color.",
+      "Do retain visible price dates, unpriced states, and the labeled example banner.",
+      "Do preserve keyboard focus outlines and the reduced-motion behavior.",
+      "Do keep wide directory content inside its scrolling container on narrow screens."
+    ],
+    "donts": [
+      "Don't turn the current open summary into a stack of nested cards.",
+      "Don't replace the text company badges with invented company logos.",
+      "Don't present an individual-stock price history as a portfolio performance chart.",
+      "Don't remove the example label or imply the illustrative holdings are the visitor's saved holdings."
+    ]
+  }
+}
