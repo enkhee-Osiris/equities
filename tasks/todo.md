@@ -18,7 +18,8 @@
 - [x] Build and verify the collector, validation, bounded manual refresh, and 400-session history collection. Full audited historical backfill remains future work.
 - [x] Configure daily Actions collection at 18:17 Asia/Ulaanbaatar and explicit Pages deployment.
 - [x] Verify 53 calculation/parser cases and five browser smoke flows, including mobile overflow, persistence, import/export, and partial valuation.
-- [ ] Prepare public-project documentation and publish to the intended repository and Pages URL.
+- [x] Prepare public-project documentation and publish the source and website.
+- [ ] Activate daily GitHub Actions after the account grants workflow scope; run a full collection on GitHub-hosted CI.
 
 ## Review
 
@@ -41,8 +42,10 @@ Planning is complete. The source milestone is deliberately unresolved: an offici
 - Production build and TypeScript pass; 40 portfolio tests, 13 collector/parser tests, and five browser tests pass.
 - Isolated Git data-branch tests passed, preserving the source checkout and staged changes.
 - Desktop/mobile render reviewed; mobile overflow fixed and source price dates retained.
-- Public repository created at https://github.com/enkhee-Osiris/equities; Pages deployment verification is in progress.
+- Public repository created at https://github.com/enkhee-Osiris/equities; Pages deployed successfully at https://enkhee-osiris.github.io/equities/.
 
 ## Publishing authorization
 
-GitHub accepted the public repository and application source. Uploading Actions YAML was denied because the current OAuth token lacks `workflow` scope. Templates are preserved in deployment/workflows and GitHub device authorization was requested. A manual gh-pages deployment is being verified so the site can be used independently of that permission.
+GitHub accepted the public repository and application source. Uploading Actions YAML was denied because the current OAuth token lacks `workflow` scope. Templates are preserved in deployment/workflows and GitHub device authorization was requested. The manual gh-pages deployment succeeded. The live site, market JSON, and stock-history view passed a production browser smoke check. Daily Actions activation remains pending workflow-scope authorization.
+
+Final verification: 53 domain/parser tests + five browser tests passed. Production repository-prefix check and deployed-site check passed. The finish reviewer scored all material fixes resolved, and design documentation and machine-readable tokens were recorded.
