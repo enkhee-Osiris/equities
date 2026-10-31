@@ -26,7 +26,7 @@ The code and website will be public. Visitors import and export holdings files. 
 
 - Required: MSE stock prices collected every day, holdings-based profit/loss, import, export, browser persistence, public project, GitHub Pages hosting.
 - The user authorized implementation after reviewing the plan and MSE source research.
-- Implemented first-release scope: current holdings and unrealized gains, browser-local persistence, import/export, market directory, dated stock history, and a labeled example portfolio. Transaction-ledger support is future work.
+- Implemented first-release scope: current holdings and unrealized gains, visible holding gain/loss and cost-versus-value charts, portfolio allocation, browser-local persistence, import/export, market directory, dated stock history, and a labeled example portfolio. Dashboard charts describe current holdings, not historical portfolio returns. Transaction-ledger support is future work.
 - Planning assumptions: MNT currency; “margin” means investment profit/loss rather than leveraged trading.
 - The initial interface is English with Mongolian company names and MNT amounts. Project name: Equities. Application code: MIT. No real owner holdings are published.
 - Remaining source limitations: Open lists 160 companies while the newer hub reports 162; some histories fail validation or are very old. MSE redistribution terms remain to be verified separately from technical crawling access.

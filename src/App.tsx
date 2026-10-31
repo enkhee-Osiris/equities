@@ -34,8 +34,10 @@ import {
   PositionDetails,
   Sheet,
 } from "./components/PortfolioPanels";
+import { PortfolioCharts } from "./components/PortfolioCharts";
 import {
   ageDays,
+  allocationColors as colors,
   dateLabel,
   errorMessage,
   quantity,
@@ -45,14 +47,6 @@ import {
 
 const STORAGE_KEY = "mse-equities.portfolio.v1";
 const BASE = import.meta.env.BASE_URL;
-const colors = [
-  "#316c5b",
-  "#7b94b8",
-  "#a5b9ae",
-  "#a8a0bd",
-  "#d4b786",
-  "#7ba9ab",
-];
 const exampleHoldings: Holding[] = [
   ["APU", "2000", "1000", "20000"],
   ["KHAN", "1000", "1700", "17000"],
@@ -168,9 +162,6 @@ export default function App() {
   const selectedPosition = portfolio.positions.find(
     (p) => p.holding.id === selected,
   );
-  const allocations = [...portfolio.positions]
-    .filter((p) => p.value?.isPositive())
-    .sort((a, b) => b.value!.cmp(a.value!));
 
   async function loadMarket() {
     setLoading(true);
@@ -533,6 +524,9 @@ export default function App() {
             days. Review the price dates before relying on this valuation.
           </div>
         )}
+        {hasHoldings && view === "holdings" && (
+          <PortfolioCharts portfolio={portfolio} onSelect={setSelected} />
+        )}
         <section className="ledger">
           <div className="ledger-navigation">
             <nav aria-label="Portfolio views">
@@ -768,8 +762,8 @@ export default function App() {
                   </div>
                   <h2>Every portfolio starts with a first holding.</h2>
                   <p>
-                    Add your stocks or import a portfolio to see where you
-                    stand.
+                    Add your stocks or import a portfolio to see your value,
+                    gain/loss, and allocation charts.
                   </p>
                   <div>
                     <button
@@ -932,55 +926,6 @@ export default function App() {
         </section>
         {hasHoldings && view === "holdings" && (
           <section className="portfolio-context">
-            <div className="allocation">
-              <div className="subheading">
-                <h2>Portfolio mix</h2>
-                <span>By market value</span>
-              </div>
-              {allocations.length ? (
-                <>
-                  <div
-                    className="allocation-bar"
-                    role="img"
-                    aria-label="Portfolio allocation by market value"
-                  >
-                    {allocations.map((p, i) => (
-                      <button
-                        key={p.holding.id}
-                        style={{
-                          width: `${p.value!.div(portfolio.value).mul(100).toNumber()}%`,
-                          background: colors[i % colors.length],
-                        }}
-                        title={`${p.holding.symbol}: ${p.value!.div(portfolio.value).mul(100).toFixed(1)}%`}
-                        aria-label={`View ${p.holding.symbol}`}
-                        onClick={() => setSelected(p.holding.id)}
-                      />
-                    ))}
-                  </div>
-                  <div className="allocation-legend">
-                    {allocations.map((p, i) => (
-                      <button
-                        key={p.holding.id}
-                        onClick={() => setSelected(p.holding.id)}
-                      >
-                        <span
-                          className="legend-dot"
-                          style={{ background: colors[i % colors.length] }}
-                        />
-                        <strong>{p.holding.symbol}</strong>
-                        <span>
-                          {p.value!.div(portfolio.value).mul(100).toFixed(1)}%
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-                </>
-              ) : (
-                <p className="muted">
-                  Add priced holdings to see your allocation.
-                </p>
-              )}
-            </div>
             <div className="numbers-note">
               <CircleHelp size={19} />
               <div>
@@ -1108,9 +1053,9 @@ export default function App() {
             </p>
             <h3>About closing prices</h3>
             <p>
-              Prices come from MSE’s public pages. Each stock
-              keeps its actual source date. Missing or invalid prices are left
-              unpriced, and stale prices remain dated.
+              Prices come from MSE’s public pages. Each stock keeps its actual
+              source date. Missing or invalid prices are left unpriced, and
+              stale prices remain dated.
             </p>
             {market && (
               <p>

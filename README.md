@@ -1,6 +1,8 @@
 # Equities
 
-A browser-local portfolio tracker for Mongolian stocks. See purchase cost, current market value, and unrealized profit/loss using dated closing prices from the Mongolian Stock Exchange. Import/export CSV or JSON, edit holdings, explore the stock directory, and inspect individual price histories.
+A browser-local portfolio tracker for Mongolian stocks. See purchase cost, current market value, and unrealized profit/loss using dated closing prices from the Mongolian Stock Exchange. Compare holdings in gain/loss and cost-versus-value charts, inspect portfolio allocation, import/export CSV or JSON, edit holdings, explore the stock directory, and inspect individual price histories.
+
+Dashboard charts compare current holdings at their latest available closing prices; they are not a historical portfolio-return timeline. Unpriced holdings are excluded from charts, matching the partial valuation. Select a chart row or allocation legend entry to open that holding’s dated stock-price history. Large portfolios show the six largest holdings initially, with an option to expand. With more than six holdings, allocation groups holdings after the largest five as “Other.”
 
 Holdings stay in localStorage on your device. There is no application server, account, analytics service, or holdings database. The example portfolio has illustrative quantities and purchase prices, clearly labeled; its market prices come from MSE. Editing the example stays in a labeled sandbox and never replaces the personal portfolio. No actual owner portfolio is included.
 
