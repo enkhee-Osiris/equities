@@ -1,6 +1,15 @@
 import Decimal from "decimal.js";
 import { formatMoney } from "./portfolio";
 
+export const allocationColors = [
+  "#316c5b",
+  "#7b94b8",
+  "#a5b9ae",
+  "#a8a0bd",
+  "#d4b786",
+  "#7ba9ab",
+];
+
 export function dateLabel(date: string, year = false): string {
   return new Date(`${date.slice(0, 10)}T00:00:00Z`).toLocaleDateString(
     "en-GB",

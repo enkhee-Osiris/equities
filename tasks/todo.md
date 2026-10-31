@@ -1,5 +1,20 @@
 # Project work
 
+## Dashboard charts — 31 October 2026
+
+- [x] Add visible holding gain/loss and purchase-cost versus market-value charts.
+- [x] Add portfolio allocation visualization with links to holding details.
+- [x] Preserve partial valuations, missing-price states, and browser-local holdings.
+- [x] Verify chart figures, interactions, and desktop/mobile layout.
+- [x] Publish the source and updated GitHub Pages site.
+
+### Chart verification
+
+- Production build, 40 portfolio tests, 13 collector tests, and nine browser tests pass.
+- Chart checks cover equal positive/negative bar magnitudes, break-even holdings, cost/value comparisons, partial and absent price coverage, allocation aggregation, holding-detail links, unchanged browser storage, and 320px mobile fit.
+- Desktop (1440px) and mobile (390px) captures reviewed for both chart views. Finish reviewer disposition: ship. Documentation comparison found no new design-system tokens or rules; existing design files were preserved.
+- Published Pages build `ac362255c6a9686235b45680d01474bc10c4c7f0` succeeded. Live production smoke verified both chart views, allocation, dated stock history, mobile fit, local-only example behavior, and no browser errors.
+
 ## Planning — 30 October 2026
 
 - [x] Inspect the existing workspace and applicable instructions.
